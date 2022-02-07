@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;900&display=swap");
+
+:root {
+  --color-blue: #bfdbfe;
+  --color-dark-blue: #0284c7;
+  --color-green: #d1fae5;
+  --color-dark-green: #059669;
+  --color-yellow: #fed7aa;
+  --color-dark-yellow: #f97316;
+  --color-red: #fca5a5;
+  --color-dark-red: #dc2626;
+  --color-white: #f3f4f6;
+  --color-black: #1e293b;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/* alert styles */
+
+.heading {
+  font-size: 3.2rem;
+  margin-bottom: 2rem;
+  margin-left: 2rem;
+}
+
+.alert {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.75rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 50rem;
+  max-height: 3rem;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  margin-left: 2rem;
+  border-radius: 0.5rem;
+}
+
+.alert-primary {
+  background: var(--color-blue);
+  color: var(--color-dark-blue);
+}
+
+.alert-success {
+  background: var(--color-green);
+  color: var(--color-dark-green);
+}
+
+.alert-warning {
+  background: var(--color-yellow);
+  color: var(--color-dark-yellow);
+}
+
+.alert-danger {
+  background: var(--color-red);
+  color: var(--color-dark-red);
+}
+
+.padding-lg {
+  padding: 0 2rem;
+}
