@@ -1,2 +1,3 @@
-# sanguine-ui-lib
- 
+# Sanguine UI
+
+## A simple and minimal component library
