@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Monoton&display=swap");
+
+.nav-logo {
+  font-family: "Monoton", cursive;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.link {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.link-active {
+  font-weight: 700;
+}
+
+.list-inline {
+  display: flex;
+  list-style-type: none;
+  gap: 2rem;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 3px 3px 0 lightgray;
+  color: goldenrod;
+  text-decoration: none;
+  padding: 1rem 2rem;
+}
+
+.options {
+  color: goldenrod;
+  text-align: right;
+}
