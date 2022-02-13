@@ -94,6 +94,7 @@ html {
   border-radius: 50%;
   background: var(--blue);
   color: var(--off-white);
+  box-shadow: 0 2px 3px 0 var(--grey);
 }
 
 .btn-float-lg {
