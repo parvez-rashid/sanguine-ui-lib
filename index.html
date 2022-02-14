@@ -4,7 +4,102 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/main.css" />
+
     <title>Sanguine | A simple and minimal component library</title>
   </head>
-  <body></body>
+  <body>
+    <nav class="navigation padding-lg">
+      <div class="nav-logo">SANGUINE</div>
+      <ul class="margin-md list-style-none list-inline">
+        <li class="padding-lg margin-sm">
+          <label for="drop-down" class="options">components:</label>
+          <select name="pages" id="drop-down">
+            <option value="default">--Select--</option>
+            <option value="alerts">Alerts</option>
+            <option value="buttons">Buttons</option>
+            <option value="avatar">Avatar</option>
+            <option value="badges">Badges</option>
+          </select>
+        </li>
+        <li class="padding-lg margin-sm">
+          <a class="options link link-active" href="/index.html">home</a>
+        </li>
+        <li class="padding-lg margin-sm">
+          <a class="options link" href="/index.html">documentation</a>
+        </li>
+        <li class="padding-lg margin-sm">
+          <a class="options link" href="/index.html">github</a>
+        </li>
+      </ul>
+    </nav>
+    <main class="main">
+      <aside class="sidebar padding-lg">
+        <ul class="list-style-none">
+          <li class="padding-lg">
+            <a
+              class="primary-color cursor-pointer text-dec-none"
+              href="/components/alert/alert.html"
+              >Alert</a
+            >
+          </li>
+          <li class="padding-lg">
+            <a class="primary-color cursor-pointer text-dec-none" href="/"
+              >Button</a
+            >
+          </li>
+          <li class="padding-lg">
+            <a class="primary-color cursor-pointer text-dec-none" href="/"
+              >Avatar</a
+            >
+          </li>
+          <li class="padding-lg">
+            <a class="primary-color cursor-pointer text-dec-none" href="/"
+              >Badge</a
+            >
+          </li>
+          <li class="padding-lg">
+            <a class="primary-color cursor-pointer text-dec-none" href="/"
+              >Image</a
+            >
+          </li>
+        </ul>
+      </aside>
+      <section class="component-container">
+        <h1>Alert</h1>
+        <fieldset class="alerts-wrapper">
+          <div class="alert alert-primary" role="alert">
+            <i class="fas fa-info-circle padding-lg"></i>
+            This is a primary alert!
+          </div>
+          <div class="alert alert-success" role="alert">
+            <i class="fas fa-check-circle padding-lg"></i>
+            This is a success alert!
+          </div>
+          <div class="alert alert-warning" role="alert">
+            <i class="fas fa-exclamation-triangle padding-lg"></i>
+            This is a warning alert!
+          </div>
+          <div class="alert alert-danger" role="alert">
+            <i class="fas fa-exclamation-circle padding-lg"></i>
+            This is a danger alert!
+          </div>
+        </fieldset>
+        <div class="code-snippet">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=material&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=1x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520alert-primary%2522%2520role%253D%2522alert%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-info-circle%2520padding-lg%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520This%2520is%2520a%2520primary%2520alert%21%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520alert-success%2522%2520role%253D%2522alert%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-check-circle%2520padding-lg%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520This%2520is%2520a%2520success%2520alert%21%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520alert-warning%2522%2520role%253D%2522alert%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-exclamation-triangle%2520padding-lg%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520This%2520is%2520a%2520warning%2520alert%21%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520alert-danger%2522%2520role%253D%2522alert%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-exclamation-circle%2520padding-lg%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520This%2520is%2520a%2520danger%2520alert%21%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+            style="
+              width: 723px;
+              height: 484px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
