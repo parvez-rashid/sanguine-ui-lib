@@ -1,4 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Monoton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,300;1,400;1,500;1,600;1,700;1,900&display=swap");
+
+:root {
+  --primary-color: #bc3f4a;
+  --white: #f3f4f6;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 .nav-logo {
   font-family: "Monoton", cursive;
@@ -22,15 +34,19 @@
 }
 
 .navigation {
+  font-family: "Montserrat", sans-serif;
   display: flex;
   justify-content: space-between;
-  box-shadow: 0 3px 3px 0 lightgray;
-  color: goldenrod;
+  align-items: center;
+  box-shadow: 0 3px 3px 0 var(--white);
+  color: var(--white);
+  background-color: var(--primary-color);
   text-decoration: none;
   padding: 1rem 2rem;
+  border-bottom-left-radius: 20px;
 }
 
 .options {
-  color: goldenrod;
+  color: var(--white);
   text-align: right;
 }
