@@ -8,12 +8,9 @@ html {
   font-size: 62.5%;
 }
 
-body {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-}
-
 .example-container {
+  display: flex;
+  flex-direction: column;
   font-family: "Roboto", sans-serif;
   border: 1px solid black;
 }
