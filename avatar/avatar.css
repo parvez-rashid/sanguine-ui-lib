@@ -1,0 +1,68 @@
+:root {
+  --primary-color: #bc3f4a;
+  --white: #f3f4f6;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.h1 {
+  font-size: 3.2rem;
+}
+
+.disp-flex {
+  display: flex;
+  gap: 2rem;
+}
+
+.align-justify-center {
+  justify-content: center;
+  align-items: center;
+}
+
+.avatar-lg {
+  width: 15rem;
+  height: 15rem;
+  font-size: 6rem;
+}
+
+.avatar-md {
+  width: 11rem;
+  height: 11rem;
+  font-size: 4.8rem;
+}
+
+.avatar-sm {
+  width: 8rem;
+  height: 8rem;
+  font-size: 3.2rem;
+}
+
+.avatar-xs {
+  width: 6rem;
+  height: 6rem;
+  font-size: 1.6rem;
+}
+
+.avatar-text {
+  background: var(--primary-color);
+  color: var(--white);
+  font-weight: bold;
+}
+
+.img-round {
+  border-radius: 50%;
+}
+
+.img-responsive {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
