@@ -1,8 +1,12 @@
 @import "/typography/typography.css";
 
-.example-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+.h3 {
+  display: block;
+}
+
+.list-container {
+  display: flex;
+  gap: 2rem;
 }
 
 .list-style-circle {
@@ -40,4 +44,10 @@
 .list-inline {
   display: flex;
   gap: 2rem;
+}
+
+/* list styling */
+
+.list-bg-gray {
+  background-color: var(--gray);
 }
