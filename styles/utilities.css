@@ -1,0 +1,31 @@
+/* padding */
+
+.padding-sm {
+  padding: 2.5px 2.5px;
+}
+
+.padding-md {
+  padding: 5px 5px;
+}
+
+.padding-lg {
+  padding: 1rem 1rem;
+}
+
+/* margin */
+
+.margin-sm {
+  margin: 2.5px 2.5px;
+}
+
+.margin-md {
+  margin: 5px 5px;
+}
+
+.margin-lg {
+  margin: 1rem 1rem;
+}
+
+.text-dec-none {
+  text-decoration: none;
+}

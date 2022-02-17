@@ -4,9 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/input/input.css" />
-    <link rel="stylesheet" href="/styles/documentation.css" />
     <link rel="stylesheet" href="/styles/main.css" />
+    <link
+      rel="preload"
+      href="https://kit.fontawesome.com/43943f2889.js"
+      as="script"
+    />
     <title>Document</title>
   </head>
   <body>
@@ -109,25 +112,30 @@
           </li>
         </ul>
       </aside>
-    <h1>Inputs</h1>
-    <div class="input-container">
-      <label for="text-input">Username</label>
-      <input type="text" name="text-input" class="txt-box" required />
-
-      <label for="pwd-input">Password</label>
-      <input type="password" name="pwd-input" class="pwd-box" />
-    </div>
-
-    <h1>Inputs with validation</h1>
-    <div class="input-container">
-      <label for="success">Success</label>
-      <input type="text" name="success" class="txt-box success" />
-
-      <label for="warning">Warning</label>
-      <input type="password" name="warning" class="pwd-box warning" />
-
-      <label for="error-input">Error</label>
-      <input type="text" name="error" class="txt-box error" />
-    </div>
+      <section class="components">
+        <h1 class="heading">Alerts</h1>
+        <div class="alert alert-primary" role="alert">
+          <i class="fas fa-info-circle padding-lg"></i>
+          <span>This is a primary alert!</span>
+        </div>
+        <div class="alert alert-success" role="alert">
+          <i class="fas fa-check-circle padding-lg"></i>
+          <span>This is a success alert!</span>
+        </div>
+        <div class="alert alert-warning" role="alert">
+          <i class="fas fa-exclamation-triangle padding-lg"></i>
+          <span>This is a warning alert!</span>
+        </div>
+        <div class="alert alert-danger" role="alert">
+          <i class="fas fa-exclamation-circle padding-lg"></i>
+          <span>This is a danger alert!</span>
+        </div>
+      </section>
+    </main>
+    <script
+      src="https://kit.fontawesome.com/43943f2889.js"
+      crossorigin="anonymous"
+      defer
+    ></script>
   </body>
 </html>

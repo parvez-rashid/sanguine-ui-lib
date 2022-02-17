@@ -1,0 +1,15 @@
+.documentation {
+  font-family: "Montserrat", sans-serif;
+  display: grid;
+  grid-template-columns: 200px 1fr;
+}
+
+.sidebar {
+  background: var(--primary-color);
+  font-size: 2rem;
+  align-self: start;
+}
+
+.sidebar a {
+  color: var(--white);
+}

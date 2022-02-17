@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;900&display=swap");
-
 :root {
   --primary-color: #bc3f4a;
 
@@ -25,7 +23,7 @@ html {
 /* buttons */
 
 .btn {
-  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 1.6rem;
   text-align: center;
   max-width: 50rem;
