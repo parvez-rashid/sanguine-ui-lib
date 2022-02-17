@@ -6,15 +6,9 @@
   --white: #f3f4f6;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 .nav-logo {
   font-family: "Monoton", cursive;
-  font-size: 2rem;
+  font-size: 3rem;
   cursor: pointer;
 }
 
@@ -35,6 +29,7 @@
 
 .navigation {
   font-family: "Montserrat", sans-serif;
+  font-size: 1.6rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -42,7 +37,7 @@
   color: var(--white);
   background-color: var(--primary-color);
   text-decoration: none;
-  padding: 1rem 2rem;
+  padding: 2rem 4rem;
   border-bottom-left-radius: 20px;
 }
 
