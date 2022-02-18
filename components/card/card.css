@@ -1,6 +1,6 @@
 :root {
-  --grey: #d3d4d5;
   --primary-color: #bc3f4a;
+  --grey: #d3d4d5;
   --white: #ffffff;
 }
 
@@ -14,11 +14,18 @@ html {
   font-size: 62.5%;
 }
 
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem 1rem;
+  gap: 2rem;
+}
+
 .card {
+  font-family: "Montserrat", sans-serif;
   position: relative;
   font-size: 1.6rem;
   height: max-content;
-  margin: 2rem;
   padding: 1.5rem;
 }
 
@@ -26,7 +33,7 @@ html {
   width: 40rem;
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1.5rem;
   align-items: stretch;
 }
 
@@ -42,29 +49,43 @@ html {
   border-radius: 3px;
 }
 
-.vertical-card {
+.card-vertical {
   width: 40rem;
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1.5rem;
   align-items: stretch;
 }
 
-.horizontal-card {
+.card-horizontal {
   width: 65rem;
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1.5rem;
 }
 
 .top-half {
   display: flex;
-  gap: 2rem;
+  gap: 1.5rem;
 }
 
 .btn-wrapper {
   display: flex;
   justify-content: space-between;
+}
+
+.btn-wrapper button {
+  font-size: 1.6rem;
+  padding: 4px 8px;
+  border-radius: 3px;
+  background: none;
+  border: none;
+  color: var(--primary-color);
+}
+
+.btn-wrapper button:hover {
+  background: var(--grey);
+  cursor: pointer;
 }
 
 .img-responsive {
@@ -86,7 +107,7 @@ html {
   position: relative;
 }
 
-.dismiss-icon {
+.icon-dismiss {
   position: absolute;
   top: 1.5rem;
   right: 1.5rem;
@@ -94,7 +115,7 @@ html {
   border-radius: 50%;
 }
 
-.dismiss-icon:hover {
+.icon-dismiss:hover {
   cursor: pointer;
   color: var(--white);
   background: var(--primary-color);

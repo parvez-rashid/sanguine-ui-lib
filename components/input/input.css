@@ -2,6 +2,7 @@
   --input-green: #16a34a;
   --input-yellow: #facc15;
   --input-red: #dc2626;
+  --input-black: #000000;
 }
 
 .input-container {
@@ -10,16 +11,17 @@
   width: 90%;
   max-width: 500px;
   gap: 1.25rem;
-  border: 1px solid black;
-  padding: 1rem;
+  padding: 2rem;
 }
 
 .txt-box {
+  border: 1.5px solid var(--input-black);
   padding: 1rem;
   border-radius: 8px;
 }
 
 .pwd-box {
+  border: 1.5px solid var(--input-black);
   padding: 1rem;
   border-radius: 8px;
 }

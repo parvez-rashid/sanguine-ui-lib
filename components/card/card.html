@@ -43,7 +43,7 @@
         <ul class="list-style-none">
           <li class="padding-lg">
             <a
-              class="primary-color cursor-pointer text-dec-none link-active"
+              class="primary-color cursor-pointer text-dec-none"
               href="/components/alert/alert.html"
               >Alert</a
             >
@@ -71,7 +71,7 @@
           </li>
           <li class="padding-lg">
             <a
-              class="primary-color cursor-pointer text-dec-none"
+              class="primary-color cursor-pointer text-dec-none link-active"
               href="/components/card/card.html"
               >Card</a
             >
@@ -115,149 +115,154 @@
       </aside>
       <section class="components">
         <h1>Cards</h1>
-        <div class="card vertical-card txt-card box-shadow border-rad-md">
-          <h1>TITLE</h1>
-          <h2>Subtitle</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit officia
-            totam iure, omnis dolorem reprehenderit cupiditate possimus provident
-            harum, nulla minima hic, ratione aspernatur odit esse assumenda iste
-            beatae asperiores perspiciatis ad impedit labore. Porro hic sed
-            perferendis magnam animi inventore?
-          </p>
-        </div>
-        <div
-          class="card vertical-card card-dismiss txt-card box-shadow border-rad-md"
-        >
-          <h1>TITLE</h1>
-          <i class="dismiss-icon fa-solid fa-xmark"></i>
-          <h2>Subtitle</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit officia
-            totam iure, omnis dolorem reprehenderit cupiditate possimus provident
-            harum, nulla minima hic, ratione aspernatur odit esse assumenda iste
-            beatae asperiores perspiciatis ad impedit labore. Porro hic sed
-            perferendis magnam animi inventore?
-          </p>
-        </div>
-        <div class="card vertical-card box-shadow border-rad-md">
-          <img
-            class="border-rad-md"
-            src="/components/card/src/image.jpg"
-            alt="mountain-lake-northern-lights"
-          />
-          <h3>Title</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
-            molestiae numquam quis illum itaque, sint, nostrum sit unde, dignissimos
-            totam natus enim.
-          </p>
-          <div class="btn-wrapper">
-            <span><button>READ</button></span>
-            <span><button>BOOKMARK</button></span>
-            <span
-              ><button><i class="fa-brands fa-gratipay"></i></button
-            ></span>
-            <span
-              ><button><i class="fa-solid fa-share-nodes"></i></button
-            ></span>
-            <span
-              ><button><i class="fa-solid fa-ellipsis-vertical"></i></button
-            ></span>
+        <p> A card groups related information in a flexible-size container visually resembling a physical playing card.</p>
+        <h3>Usage of cards</h3>
+        <p>There are various styles of cards </p>
+        <div class="card-container">
+          <div class="card card-vertical card-txt box-shadow border-rad-md">
+            <h1>CARD</h1>
+            <h2>Text card</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit officia
+              totam iure, omnis dolorem reprehenderit cupiditate possimus provident
+              harum, nulla minima hic, ratione aspernatur odit esse assumenda iste
+              beatae asperiores perspiciatis ad impedit labore. Porro hic sed
+              perferendis magnam animi inventore?
+            </p>
           </div>
-        </div>
-        <div class="card horizontal-card box-shadow border-rad-md">
-          <div class="top-half">
-            <div class="img-wrapper">
-              <img
-                class="img-responsive border-rad-md"
-                src="/components/card/src/image.jpg"
-                alt="mountain-lake-northern-lights"
-              />
-            </div>
-            <div class="description">
-              <h3>Title</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
-                molestiae numquam quis illum itaque, sint, nostrum sit unde,
-                dignissimos totam natus enim.
-              </p>
+          <div
+            class="card card-vertical card-txt card-dismiss box-shadow border-rad-md"
+          >
+            <h1>CARD</h1>
+            <i class="icon-dismiss fa-solid fa-xmark"></i>
+            <h2>Text card with dismiss</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit officia
+              totam iure, omnis dolorem reprehenderit cupiditate possimus provident
+              harum, nulla minima hic, ratione aspernatur odit esse assumenda iste
+              beatae asperiores perspiciatis ad impedit labore. Porro hic sed
+              perferendis magnam animi inventore?
+            </p>
+          </div>
+          <div class="card card-vertical box-shadow border-rad-md">
+            <img
+              class="border-rad-md"
+              src="/components/card/src/image.jpg"
+              alt="mountain-lake-northern-lights"
+            />
+            <h3>Vertical card</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
+              molestiae numquam quis illum itaque, sint, nostrum sit unde, dignissimos
+              totam natus enim.
+            </p>
+            <div class="btn-wrapper">
+              <span><button>READ</button></span>
+              <span><button>BOOKMARK</button></span>
+              <span
+                ><button><i class="fa-regular fa-heart"></i></button
+              ></span>
+              <span
+                ><button><i class="fa-solid fa-share-nodes"></i></button
+              ></span>
+              <span
+                ><button><i class="fa-solid fa-ellipsis-vertical"></i></button
+              ></span>
             </div>
           </div>
-          <div class="btn-wrapper">
-            <span><button>READ</button></span>
-            <span><button>BOOKMARK</button></span>
-            <span
-              ><button><i class="fa-brands fa-gratipay"></i></button
-            ></span>
-            <span
-              ><button><i class="fa-solid fa-share-nodes"></i></button
-            ></span>
-            <span
-              ><button><i class="fa-solid fa-ellipsis-vertical"></i></button
-            ></span>
-          </div>
-        </div>
-        <div class="card horizontal-card box-shadow border-rad-md">
-          <div class="top-half">
-            <div class="img-wrapper">
-              <img
-                class="img-responsive border-rad-md"
-                src="/components/card/src/image.jpg"
-                alt="mountain-lake-northern-lights"
-              />
+          <div class="card card-horizontal box-shadow border-rad-md">
+            <div class="top-half">
+              <div class="img-wrapper">
+                <img
+                  class="img-responsive border-rad-md"
+                  src="/components/card/src/image.jpg"
+                  alt="mountain-lake-northern-lights"
+                />
+              </div>
+              <div class="description">
+                <h3>Horizontal card</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
+                  molestiae numquam quis illum itaque, sint, nostrum sit unde,
+                  dignissimos totam natus enim.
+                </p>
+              </div>
             </div>
-            <div class="description">
-              <h3>Title</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
-                molestiae numquam quis illum itaque, sint, nostrum sit unde,
-                dignissimos totam natus enim.
-              </p>
-              <span class="card-badge border-rad-sm">NEW</span>
+            <div class="btn-wrapper">
+              <span><button>READ</button></span>
+              <span><button>BOOKMARK</button></span>
+              <span
+                ><button><i class="fa-regular fa-heart"></i></button
+              ></span>
+              <span
+                ><button><i class="fa-solid fa-share-nodes"></i></button
+              ></span>
+              <span
+                ><button><i class="fa-solid fa-ellipsis-vertical"></i></button
+              ></span>
             </div>
           </div>
-          <div class="btn-wrapper">
-            <span><button>READ</button></span>
-            <span><button>BOOKMARK</button></span>
-            <span
-              ><button><i class="fa-brands fa-gratipay"></i></button
-            ></span>
-            <span
-              ><button><i class="fa-solid fa-share-nodes"></i></button
-            ></span>
-            <span
-              ><button><i class="fa-solid fa-ellipsis-vertical"></i></button
-            ></span>
+          <div class="card card-horizontal box-shadow border-rad-md">
+            <div class="top-half">
+              <div class="img-wrapper">
+                <img
+                  class="img-responsive border-rad-md"
+                  src="/components/card/src/image.jpg"
+                  alt="mountain-lake-northern-lights"
+                />
+              </div>
+              <div class="description">
+                <h3>Horizontal card with badge</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
+                  molestiae numquam quis illum itaque, sint, nostrum sit unde,
+                  dignissimos totam natus enim.
+                </p>
+                <span class="card-badge border-rad-sm">NEW</span>
+              </div>
+            </div>
+            <div class="btn-wrapper">
+              <span><button>READ</button></span>
+              <span><button>BOOKMARK</button></span>
+              <span
+                ><button><i class="fa-regular fa-heart"></i></button
+              ></span>
+              <span
+                ><button><i class="fa-solid fa-share-nodes"></i></button
+              ></span>
+              <span
+                ><button><i class="fa-solid fa-ellipsis-vertical"></i></button
+              ></span>
+            </div>
           </div>
-        </div>
-        <div class="card vertical-card box-shadow border-rad-md">
-          <div class="text-overlay vertical-card border-rad-md">
-            <h1>Not available</h1>
-          </div>
-          <img
-            class="border-rad-md"
-            src="/components/card/src/image.jpg"
-            alt="mountain-lake-northern-lights"
-          />
-          <h3>Title</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
-            molestiae numquam quis illum itaque, sint, nostrum sit unde, dignissimos
-            totam natus enim.
-          </p>
-          <div class="btn-wrapper">
-            <span><button>READ</button></span>
-            <span><button>BOOKMARK</button></span>
-            <span
-              ><button><i class="fa-brands fa-gratipay"></i></button
-            ></span>
-            <span
-              ><button><i class="fa-solid fa-share-nodes"></i></button
-            ></span>
-            <span
-              ><button><i class="fa-solid fa-ellipsis-vertical"></i></button
-            ></span>
+          <div class="card card-vertical box-shadow border-rad-md">
+            <div class="text-overlay vertical-card border-rad-md">
+              <h1>Not available</h1>
+            </div>
+            <img
+              class="border-rad-md"
+              src="/components/card/src/image.jpg"
+              alt="mountain-lake-northern-lights"
+            />
+            <h3>Card with text overlay</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
+              molestiae numquam quis illum itaque, sint, nostrum sit unde, dignissimos
+              totam natus enim.
+            </p>
+            <div class="btn-wrapper">
+              <span><button>READ</button></span>
+              <span><button>BOOKMARK</button></span>
+              <span
+                ><button><i class="fa-regular fa-heart"></i></button
+              ></span>
+              <span
+                ><button><i class="fa-solid fa-share-nodes"></i></button
+              ></span>
+              <span
+                ><button><i class="fa-solid fa-ellipsis-vertical"></i></button
+              ></span>
+            </div>
           </div>
         </div>
       </section>

@@ -39,7 +39,7 @@
         <ul class="list-style-none">
           <li class="padding-lg">
             <a
-              class="primary-color cursor-pointer text-dec-none link-active"
+              class="primary-color cursor-pointer text-dec-none"
               href="/components/alert/alert.html"
               >Alert</a
             >
@@ -81,7 +81,7 @@
           </li>
           <li class="padding-lg">
             <a
-              class="primary-color cursor-pointer text-dec-none"
+              class="primary-color cursor-pointer text-dec-none link-active"
               href="/components/input/input.html"
               >Input</a
             >
@@ -109,25 +109,36 @@
           </li>
         </ul>
       </aside>
-    <h1>Inputs</h1>
-    <div class="input-container">
-      <label for="text-input">Username</label>
-      <input type="text" name="text-input" class="txt-box" required />
+      <section class="components">
+        <h1>Inputs</h1>
+        <p>Inputs are used to get user input in the form of text, passwords, numbers, etc.</p>
+        <h3>Text and password input</h3>
+        <p>Standard text and password inputs.</p>
+        <div class="input-container">
+          <h2>Login</h2>
+          <label for="input-text">Username</label>
+          <input type="text" name="input-text" class="txt-box" id="input-text" required />
+    
+          <label for="input-pwd">Password</label>
+          <input type="password" name="input-pwd" class="pwd-box" id="input-pwd" />
 
-      <label for="pwd-input">Password</label>
-      <input type="password" name="pwd-input" class="pwd-box" />
-    </div>
+          <button class="btn btn-primary" type="submit">Submit</button>
+        </div>
+    
+        <h3>Inputs with validation</h3>
+        <p>Inputs with validation change border colors in response to any defined conditions, e.g. length of a password not less than 8 characters.</p>
+        <div class="input-container">
+          <label for="input-success">Success</label>
+          <input type="text" name="input-success" class="txt-box success" id="input-success" />
+    
+          <label for="input-warning">Warning</label>
+          <input type="password" name="input-warning" class="pwd-box warning" id="input-warning" />
+    
+          <label for="input-error">Error</label>
+          <input type="text" name="input-error" class="txt-box error" id="input-error" />
 
-    <h1>Inputs with validation</h1>
-    <div class="input-container">
-      <label for="success">Success</label>
-      <input type="text" name="success" class="txt-box success" />
-
-      <label for="warning">Warning</label>
-      <input type="password" name="warning" class="pwd-box warning" />
-
-      <label for="error-input">Error</label>
-      <input type="text" name="error" class="txt-box error" />
-    </div>
+          <button class="btn btn-primary" type="submit">Submit</button>
+        </div>
+      </section>
   </body>
 </html>

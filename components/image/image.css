@@ -2,12 +2,14 @@
   max-width: 1000px;
 }
 
-.responsive-img {
+.img-responsive {
   height: 100%;
   width: 100%;
   object-fit: cover;
 }
 
-.round-img {
+.img-round {
+  height: 20rem;
+  width: 20rem;
   border-radius: 50%;
 }

@@ -39,7 +39,7 @@
         <ul class="list-style-none">
           <li class="padding-lg">
             <a
-              class="primary-color cursor-pointer text-dec-none link-active"
+              class="primary-color cursor-pointer text-dec-none"
               href="/components/alert/alert.html"
               >Alert</a
             >
@@ -74,7 +74,7 @@
           </li>
           <li class="padding-lg">
             <a
-              class="primary-color cursor-pointer text-dec-none"
+              class="primary-color cursor-pointer text-dec-none link-active"
               href="/components/image/image.html"
               >Image</a
             >
@@ -109,22 +109,37 @@
           </li>
         </ul>
       </aside>
-    <h1>Images</h1>
-    <h3>Responsive image</h3>
-    <div class="img-container">
-      <img
-        class="responsive-img"
-        src="https://picsum.photos/700/350"
-        alt="demo-image"
-      />
-    </div>
-    <h3>Round image</h3>
-    <div style="height: 15rem; width: 15rem" class="img-container">
-      <img
-        class="round-img responsive-img"
-        src="https://picsum.photos/300/300"
-        alt="demo-image"
-      />
-    </div>
+      <section class="components">
+        <h1>Images</h1>
+        <p>Images can be made responsive so that they fit the parents width. Images can also be customized to make them round.</p>
+        <h3>Responsive image</h3>
+        <p>Try reducing the size of the browser window to see the responsiveness. Include class <span class="code">img-round</span> to image to make it responsive.</p>
+        <div class="img-container">
+          <img
+            class="img-responsive"
+            src="https://picsum.photos/700/350"
+            alt="demo-image"
+          />
+        </div>
+        <iframe
+          src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=3024-night&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cimg%250A%2520%2520class%253D%2522img-responsive%2522%250A%2520%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F700%252F350%2522%250A%2520%2520alt%253D%2522demo-image%2522%250A%2520%2520%252F%253E"
+          style="width: 446px; height: 263px; border:0; transform: scale(1); overflow:hidden;"
+          sandbox="allow-scripts allow-same-origin">
+        </iframe>
+        <h3>Round image</h3>
+        <p>Includec class <span class="code">img-round</span> to make image round.</p>
+        <div class="img-container">
+          <img
+            class="img-round"
+            src="https://picsum.photos/300/300"
+            alt="demo-image"
+          />
+        </div>
+        <iframe
+          src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=3024-night&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cimg%250A%2520%2520class%253D%2522img-round%2522%250A%2520%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F300%252F300%2522%250A%2520%2520alt%253D%2522demo-image%2522%250A%252F%253E"
+          style="width: 446px; height: 263px; border:0; transform: scale(1); overflow:hidden;"
+          sandbox="allow-scripts allow-same-origin">
+        </iframe>
+      </section>
   </body>
 </html>
