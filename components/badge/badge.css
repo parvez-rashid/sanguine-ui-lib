@@ -1,16 +1,23 @@
 @import "/avatar/avatar.css";
 
 :root {
-  --green: #22c55e;
-  --yellow: #facc15;
-  --red: #dc2626;
-  --grey: #94a3b8;
-  --white: #ffffff;
+  --badge-green: #22c55e;
+  --badge-yellow: #facc15;
+  --badge-red: #dc2626;
+  --badge-grey: #94a3b8;
+  --badge-white: #ffffff;
 }
 
 .flex-col {
   flex-direction: column;
   gap: 2rem;
+}
+
+.badge-wrapper {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
 }
 
 .badge-container {
@@ -23,23 +30,23 @@
 }
 
 .badge-online {
-  border: 4px solid var(--white);
-  background: var(--green);
+  border: 4px solid var(--badge-white);
+  background: var(--badge-green);
 }
 
 .badge-away {
-  border: 3.5px solid var(--white);
-  background: var(--yellow);
+  border: 3.5px solid var(--badge-white);
+  background: var(--badge-yellow);
 }
 
 .badge-busy {
-  border: 3px solid var(--white);
-  background: var(--red);
+  border: 3px solid var(--badge-white);
+  background: var(--badge-red);
 }
 
 .badge-offline {
-  border: 3.5px solid var(--grey);
-  background: var(--white);
+  border: 3.5px solid var(--badge-grey);
+  background: var(--badge-white);
 }
 
 .badge-lg {
@@ -82,32 +89,15 @@
   right: 3px;
 }
 
-.number-badge {
+.badge-number {
   position: absolute;
-  background: var(--red);
-  color: var(--white);
-  aspect-ratio: 1/1;
+  text-align: center;
+  background: var(--badge-red);
+  color: var(--badge-white);
   padding: 3px;
-  border-radius: 50%;
-  width: max-content;
-  top: -2px;
-  right: -1px;
-}
-
-.number-badge-lg {
-  font-size: 1.5rem;
-  min-width: 2.25rem;
-  height: 2.25rem;
-}
-
-.number-badge-md {
-  font-size: 1.3rem;
   min-width: 1.85rem;
-  height: 1.85rem;
-}
-
-.number-badge-sm {
-  font-size: 1.1rem;
-  min-width: 1.6rem;
-  height: 1.6rem;
+  min-height: 1.85rem;
+  border-radius: 50%;
+  top: -2px;
+  right: -2px;
 }

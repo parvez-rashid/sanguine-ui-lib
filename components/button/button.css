@@ -3,11 +3,14 @@
 
   --blue: #2563eb;
   --dark-blue: #1e40af;
-  --grey: #9ca3af;
+  --grey: #64748b;
   --dark-grey: #6b7280;
-  --green: #1b9e4b;
+  --green: #22c55e;
+  --dark-green: #16a34a;
   --yellow: #facc15;
+  --dark-yellow: #eab308;
   --red: #ef4444;
+  --dark-red: #dc2626;
   --off-white: #f3f4f6;
   --black: #334155;
 }
@@ -43,13 +46,16 @@ html {
 
 .btn-primary:hover {
   background: var(--dark-blue);
-  transition: all 0.5s ease-in-out;
 }
 
 .btn-secondary {
   border: none;
-  background: var(--dark-grey);
+  background: var(--grey);
   color: var(--off-white);
+}
+
+.btn-secondary:hover {
+  background: var(--dark-grey);
 }
 
 .btn-success {
@@ -58,16 +64,27 @@ html {
   color: var(--off-white);
 }
 
+.btn-success:hover {
+  background: var(--dark-green);
+}
+
 .btn-warning {
   border: none;
   background: var(--yellow);
   color: var(--black);
 }
 
+.btn-warning:hover {
+  background: var(--dark-yellow);
+}
+
 .btn-danger {
   border: none;
   background: var(--red);
   color: var(--off-white);
+}
+.btn-danger:hover {
+  background: var(--dark-red);
 }
 
 .btn-link {

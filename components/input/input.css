@@ -1,7 +1,7 @@
 :root {
-  --green: #16a34a;
-  --yellow: #facc15;
-  --red: #dc2626;
+  --input-green: #16a34a;
+  --input-yellow: #facc15;
+  --input-red: #dc2626;
 }
 
 .input-container {
@@ -25,13 +25,13 @@
 }
 
 .success {
-  border: 2px solid var(--green);
+  border: 2px solid var(--input-green);
 }
 
 .warning {
-  border: 2px solid var(--yellow);
+  border: 2px solid var(--input-yellow);
 }
 
 .error {
-  border: 2px solid var(--red);
+  border: 2px solid var(--input-red);
 }
