@@ -17,11 +17,6 @@
   margin: 0 1rem;
 }
 
-.avatar img {
-  max-width: 100%;
-  display: block;
-}
-
 .avatar-lg {
   width: 15rem;
   height: 15rem;

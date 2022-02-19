@@ -26,5 +26,8 @@
 }
 
 .components {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   margin: 2rem 0;
 }

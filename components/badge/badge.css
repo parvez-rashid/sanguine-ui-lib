@@ -6,11 +6,6 @@
   --badge-white: #ffffff;
 }
 
-.flex-col {
-  flex-direction: column;
-  gap: 2rem;
-}
-
 .badge-wrapper {
   display: flex;
   gap: 2rem;
@@ -90,6 +85,7 @@
 
 .badge-number {
   position: absolute;
+  font-size: 1.2rem;
   text-align: center;
   background: var(--badge-red);
   color: var(--badge-white);
