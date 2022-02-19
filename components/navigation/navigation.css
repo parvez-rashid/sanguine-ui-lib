@@ -30,11 +30,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  box-shadow: 0 3px 3px 0 var(--white);
+  box-shadow: 0 3px 3px 2px var(--white);
   color: var(--primary-color);
   text-decoration: none;
-  padding: 2rem 4rem;
-  margin: 1.2rem 2rem;
+  padding: 2.4rem 2rem;
 }
 
 .navigation-alt {
@@ -46,7 +45,8 @@
   color: var(--white);
   background: var(--primary-color);
   text-decoration: none;
-  padding: 2rem 4rem;
+  padding: 2.4rem 4rem;
+  margin: 1.2rem 1.2rem;
 }
 
 .options {

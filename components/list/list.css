@@ -1,6 +1,9 @@
 .list-container {
   display: flex;
-  gap: 2rem;
+  gap: 8rem;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0;
 }
 
 .list-style-circle {
@@ -37,5 +40,5 @@
 
 .list-inline {
   display: flex;
-  gap: 2rem;
+  gap: 3rem;
 }

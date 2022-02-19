@@ -24,3 +24,7 @@
 .hr {
   border-top: 1px solid lightgray;
 }
+
+.components {
+  margin: 2rem 0;
+}

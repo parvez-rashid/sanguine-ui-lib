@@ -7,7 +7,6 @@
 .card-container {
   display: flex;
   flex-wrap: wrap;
-  padding: 1rem 1rem;
   gap: 2rem;
 }
 
@@ -25,18 +24,6 @@
   flex-direction: column;
   gap: 1.5rem;
   align-items: stretch;
-}
-
-.box-shadow {
-  box-shadow: 0 0 7px 0 var(--grey);
-}
-
-.border-rad-md {
-  border-radius: 5px;
-}
-
-.border-rad-sm {
-  border-radius: 3px;
 }
 
 .card-vertical {
@@ -124,4 +111,16 @@
   background: var(--grey);
   opacity: 0.75;
   z-index: 2;
+}
+
+.box-shadow {
+  box-shadow: 0 0 7px 0 var(--grey);
+}
+
+.border-rad-md {
+  border-radius: 5px;
+}
+
+.border-rad-sm {
+  border-radius: 3px;
 }
