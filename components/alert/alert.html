@@ -113,13 +113,18 @@
           Alerts are used to draw the user's attention to information which is
           not a part of the normal view, without affecting the user's flow.
         </p>
+        <hr class="hr" />
         <h3>Usage of alerts</h3>
         <p>
           Alerts are available in 4 types - primary, success, warning, and
-          danger. Simply use class alert alongwith class of type of alert which
-          are alert-primary, alert-secondary, alert-warning, or alert-danger.
+          danger. Simply use class <span class="code">alert</span> along with
+          class of type of alert which are
+          <span class="code">alert-primary</span>,
+          <span class="code">alert-secondary</span>,
+          <span class="code">alert-warning</span>, or
+          <span class="code">alert-danger</span>.
         </p>
-        <ul>
+        <ul class="list-style-none">
           <li>
             <strong>Primary alert</strong> is used to display general
             information to the user.
@@ -137,22 +142,26 @@
             information that is critical for the user to check.
           </li>
         </ul>
-        <div class="alert alert-primary" role="alert">
-          <i class="fas fa-info-circle padding-lg"></i>
-          <span>This is a primary alert!</span>
+        <hr class="hr" />
+        <div class="alert-container">
+          <div class="alert alert-primary" role="alert">
+            <i class="fas fa-info-circle padding-lg"></i>
+            <span>This is a primary alert!</span>
+          </div>
+          <div class="alert alert-success" role="alert">
+            <i class="fas fa-check-circle padding-lg"></i>
+            <span>This is a success alert!</span>
+          </div>
+          <div class="alert alert-warning" role="alert">
+            <i class="fas fa-exclamation-triangle padding-lg"></i>
+            <span>This is a warning alert!</span>
+          </div>
+          <div class="alert alert-danger" role="alert">
+            <i class="fas fa-exclamation-circle padding-lg"></i>
+            <span>This is a danger alert!</span>
+          </div>
         </div>
-        <div class="alert alert-success" role="alert">
-          <i class="fas fa-check-circle padding-lg"></i>
-          <span>This is a success alert!</span>
-        </div>
-        <div class="alert alert-warning" role="alert">
-          <i class="fas fa-exclamation-triangle padding-lg"></i>
-          <span>This is a warning alert!</span>
-        </div>
-        <div class="alert alert-danger" role="alert">
-          <i class="fas fa-exclamation-circle padding-lg"></i>
-          <span>This is a danger alert!</span>
-        </div>
+        <hr class="hr" />
         <iframe
           src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=3024-night&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520alert-primary%2522%2520role%253D%2522alert%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-info-circle%2520padding-lg%2522%253E%253C%252Fi%253E%250A%2520%2520%253Cspan%253EThis%2520is%2520a%2520primary%2520alert%21%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-success%2522%2520role%253D%2522alert%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-check-circle%2520padding-lg%2522%253E%253C%252Fi%253E%250A%2520%2520%253Cspan%253EThis%2520is%2520a%2520success%2520alert%21%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-warning%2522%2520role%253D%2522alert%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-exclamation-triangle%2520padding-lg%2522%253E%253C%252Fi%253E%250A%2520%2520%253Cspan%253EThis%2520is%2520a%2520warning%2520alert%21%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-danger%2522%2520role%253D%2522alert%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-exclamation-circle%2520padding-lg%2522%253E%253C%252Fi%253E%250A%2520%2520%253Cspan%253EThis%2520is%2520a%2520danger%2520alert%21%253C%252Fspan%253E%250A%253C%252Fdiv%253E"
           style="
