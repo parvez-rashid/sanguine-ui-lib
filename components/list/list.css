@@ -1,5 +1,3 @@
-@import "/components/typography/typography.css";
-
 .list-container {
   display: flex;
   gap: 2rem;

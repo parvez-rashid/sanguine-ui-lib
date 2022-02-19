@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="/input/input.css" />
     <link rel="stylesheet" href="/styles/documentation.css" />
     <link rel="stylesheet" href="/styles/main.css" />
-    <title>Document</title>
+    <title>Inputs | Sanguine</title>
   </head>
   <body>
     <nav class="navigation">
@@ -111,44 +111,100 @@
       </aside>
       <section class="components">
         <h1>Inputs</h1>
-        <p>Inputs are used to get user input in the form of text, passwords, numbers, etc.</p>
+        <p>
+          Inputs are used to get user input in the form of text, passwords,
+          numbers, etc.
+        </p>
         <h3>Text and password input</h3>
         <p>Standard text and password inputs.</p>
         <div class="input-container">
           <h2>Login</h2>
           <label for="input-text">Username</label>
-          <input type="text" name="input-text" class="txt-box" id="input-text" placeholder="Username" required />
-    
+          <input
+            type="text"
+            name="input-text"
+            class="txt-box"
+            id="input-text"
+            placeholder="Username"
+            required
+          />
+
           <label for="input-pwd">Password</label>
-          <input type="password" name="input-pwd" class="pwd-box" id="input-pwd" placeholder="**********" />
+          <input
+            type="password"
+            name="input-pwd"
+            class="pwd-box"
+            id="input-pwd"
+            placeholder="**********"
+          />
 
           <button class="btn btn-primary" type="submit">Submit</button>
         </div>
         <iframe
           src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=3024-night&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Clabel%2520for%253D%2522input-text%2522%253EUsername%253C%252Flabel%253E%250A%253Cinput%2520type%253D%2522text%2522%2520name%253D%2522input-text%2522%2520class%253D%2522txt-box%2522%2520id%253D%2522input-text%2522%2520required%2520%252F%253E%250A%253Clabel%2520for%253D%2522input-pwd%2522%253EPassword%253C%252Flabel%253E%250A%253Cinput%2520type%253D%2522password%2522%2520name%253D%2522input-pwd%2522%2520class%253D%2522pwd-box%2522%2520id%253D%2522input-pwd%2522%2520%252F%253E"
-          style="width: 824px; height: 261px; border:0; transform: scale(1); overflow:hidden;"
-          sandbox="allow-scripts allow-same-origin">
+          style="
+            width: 824px;
+            height: 261px;
+            border: 0;
+            transform: scale(1);
+            overflow: hidden;
+          "
+          sandbox="allow-scripts allow-same-origin"
+        >
         </iframe>
-    
+
         <h3>Inputs with validation</h3>
-        <p>Inputs with validation change border colors in response to any defined conditions, e.g. length of a password not less than 8 characters.</p>
+        <p>
+          Inputs with validation change border colors in response to any defined
+          conditions, e.g. length of a password not less than 8 characters.
+        </p>
         <div class="input-container">
           <label for="input-success">Success</label>
-          <input type="text" name="input-success" class="txt-box success" id="input-success" placeholder="Valid input" />
-    
+          <input
+            type="text"
+            name="input-success"
+            class="txt-box success"
+            id="input-success"
+            placeholder="Valid input"
+          />
+
           <label for="input-warning">Warning</label>
-          <input type="password" name="input-warning" class="pwd-box warning" id="input-warning" placeholder="Partially valid input" />
-    
+          <input
+            type="password"
+            name="input-warning"
+            class="pwd-box warning"
+            id="input-warning"
+            placeholder="Partially valid input"
+          />
+
           <label for="input-error">Error</label>
-          <input type="text" name="input-error" class="txt-box error" id="input-error" placeholder="Invalid input"/>
+          <input
+            type="text"
+            name="input-error"
+            class="txt-box error"
+            id="input-error"
+            placeholder="Invalid input"
+          />
 
           <button class="btn btn-primary" type="submit">Submit</button>
         </div>
         <iframe
           src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=3024-night&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Clabel%2520for%253D%2522input-success%2522%253ESuccess%253C%252Flabel%253E%250A%253Cinput%2520type%253D%2522text%2522%2520name%253D%2522input-success%2522%2520class%253D%2522txt-box%2520success%2522%2520id%253D%2522input-success%2522%2520placeholder%253D%2522Valid%2520input%2522%2520%252F%253E%250A%253Clabel%2520for%253D%2522input-warning%2522%253EWarning%253C%252Flabel%253E%250A%253Cinput%2520type%253D%2522password%2522%2520name%253D%2522input-warning%2522%2520class%253D%2522pwd-box%2520warning%2522%2520id%253D%2522input-warning%2522%2520placeholder%253D%2522Partially%2520valid%2520input%2522%2520%252F%253E%250A%253Clabel%2520for%253D%2522input-error%2522%253EError%253C%252Flabel%253E%250A%253Cinput%2520type%253D%2522text%2522%2520name%253D%2522input-error%2522%2520class%253D%2522txt-box%2520error%2522%2520id%253D%2522input-error%2522%2520placeholder%253D%2522Invalid%2520input%2522%252F%253E"
-          style="width: 1024px; height: 354px; border:0; transform: scale(1); overflow:hidden;"
-          sandbox="allow-scripts allow-same-origin">
+          style="
+            width: 1024px;
+            height: 354px;
+            border: 0;
+            transform: scale(1);
+            overflow: hidden;
+          "
+          sandbox="allow-scripts allow-same-origin"
+        >
         </iframe>
       </section>
+    </main>
+    <script
+      src="https://kit.fontawesome.com/43943f2889.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

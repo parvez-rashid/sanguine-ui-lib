@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;600;700;900&display=swap");
-
 :root {
   --color-blue: #bfdbfe;
   --color-dark-blue: #0284c7;
@@ -26,7 +24,7 @@ html {
 /* alert styles */
 
 .alert {
-  font-family: "Inter", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 1.75rem;
   display: flex;
   justify-content: center;
