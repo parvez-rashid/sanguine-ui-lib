@@ -37,9 +37,27 @@
   color: var(--primary-color);
   text-decoration: none;
   padding: 2rem 4rem;
+  margin: 1.2rem 2rem;
+}
+
+.navigation-alt {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--white);
+  background: var(--primary-color);
+  text-decoration: none;
+  padding: 2rem 4rem;
 }
 
 .options {
   color: var(--primary-color);
+  text-align: right;
+}
+
+.options-alt {
+  color: var(--white);
   text-align: right;
 }
