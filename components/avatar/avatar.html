@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/main.css" />
+    <title>Avatar | Sanguine</title>
+  </head>
+  <body>
+    <nav class="navigation">
+      <div class="nav-logo">SANGUINE</div>
+      <ul class="list-style-none list-inline">
+        <li>
+          <i class="fa-solid fa-house"></i>
+          <a class="options link" href="/index.html">home</a>
+        </li>
+        <li>
+          <i class="fa-solid fa-layer-group"></i>
+          <a class="options link link-active" href="/documentation.html"
+            >documentation</a
+          >
+        </li>
+        <li>
+          <i class="fa-brands fa-github"></i>
+          <a
+            class="options link"
+            href="https://github.com/parvez-rashid/sanguine-ui-lib/tree/dev"
+            target="_blank"
+            >github</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <main class="documentation">
+      <aside class="sidebar padding-lg">
+        <ul class="list-style-none">
+          <li class="padding-lg">
+            <a
+              class="primary-color cursor-pointer text-dec-none"
+              href="/components/alert/alert.html"
+              >Alert</a
+            >
+          </li>
+          <li class="padding-lg">
+            <a
+              class="primary-color cursor-pointer text-dec-none"
+              href="/components/button/button.html"
+              >Button</a
+            >
+          </li>
+          <li class="padding-lg">
+            <a
+              class="primary-color cursor-pointer text-dec-none link-active"
+              href="/components/avatar/avatar.html"
+              >Avatar</a
+            >
+          </li>
+          <li class="padding-lg">
+            <a
+              class="primary-color cursor-pointer text-dec-none"
+              href="/components/badge/badge.html"
+              >Badge</a
+            >
+          </li>
+          <li class="padding-lg">
+            <a
+              class="primary-color cursor-pointer text-dec-none"
+              href="/components/card/card.html"
+              >Card</a
+            >
+          </li>
+          <li class="padding-lg">
+            <a
+              class="primary-color cursor-pointer text-dec-none"
+              href="/components/image/image.html"
+              >Image</a
+            >
+          </li>
+          <li class="padding-lg">
+            <a
+              class="primary-color cursor-pointer text-dec-none"
+              href="/components/input/input.html"
+              >Input</a
+            >
+          </li>
+          <li class="padding-lg">
+            <a
+              class="primary-color cursor-pointer text-dec-none"
+              href="/components/navigation/navigation.html"
+              >Navigation</a
+            >
+          </li>
+          <li class="padding-lg">
+            <a
+              class="primary-color cursor-pointer text-dec-none"
+              href="/components/list/list.html"
+              >Lists</a
+            >
+          </li>
+          <li class="padding-lg">
+            <a
+              class="primary-color cursor-pointer text-dec-none"
+              href="/components/typography/typography.html"
+              >Typography</a
+            >
+          </li>
+        </ul>
+      </aside>
+      <section class="components">
+        <h1 class="h1 text-wt-bold">Avatar</h1>
+        <p>
+          An avatar can be used to display the user's profile picture in various
+          contexts, examples of which include the profile page in social media
+          applications, blogs, and navbar.
+        </p>
+        <hr class="hr" />
+        <h3>Image avatars</h3>
+        <p>
+          Avatar can be of 4 different sizes, i.e., large, medium, small, and
+          extra-small. Simply include class
+          <span class="code">avatar</span> along with class
+          <span class="code">avatar-lg</span>,
+          <span class="code">avatar-md</span>,
+          <span class="code">avatar-sm</span>, or
+          <span class="code">avatar-xs</span> according to your size
+          requirement.
+        </p>
+        <hr class="hr" />
+        <div class="avatar-wrapper">
+          <div class="avatar avatar-lg">
+            <img
+              class="img-responsive img-round"
+              src="/assets/images/avatar.jpg"
+              alt="avatar-large"
+            />
+          </div>
+          <div class="avatar avatar-md">
+            <img
+              class="img-responsive img-round"
+              src="/assets/images/avatar.jpg"
+              alt="avatar-medium"
+            />
+          </div>
+          <div class="avatar avatar-sm">
+            <img
+              class="img-responsive img-round"
+              src="/assets/images/avatar.jpg"
+              alt="avatar-small"
+            />
+          </div>
+          <div class="avatar avatar-xs">
+            <img
+              class="img-responsive img-round"
+              src="/assets/images/avatar.jpg"
+              alt="avatar-extra-small"
+            />
+          </div>
+        </div>
+        <hr class="hr" />
+        <iframe
+          src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=3024-night&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522avatar%2520avatar-lg%2522%253E%250A%2520%2520%253Cimg%2520src%253D%2522%252Fassets%252Fimages%252Favatar.jpg%2522%2520alt%253D%2522avatar-large%2522%2520%252F%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520avatar-md%2522%253E%250A%2520%2520%253Cimg%2520src%253D%2522%252Fassets%252Fimages%252Favatar.jpg%2522%2520alt%253D%2522avatar-medium%2522%2520%252F%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520avatar-sm%2522%253E%250A%2520%2520%253Cimg%2520src%253D%2522%252Fassets%252Fimages%252Favatar.jpg%2522%2520alt%253D%2522avatar-small%2522%2520%252F%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520avatar-xs%2522%253E%250A%2520%2520%253Cimg%2520src%253D%2522%252Fassets%252Fimages%252Favatar.jpg%2522%2520alt%253D%2522avatar-extra-small%2522%2520%252F%253E%250A%253C%252Fdiv%253E"
+          style="
+            width: 690px;
+            height: 394px;
+            border: 0;
+            transform: scale(1);
+            overflow: hidden;
+          "
+          sandbox="allow-scripts allow-same-origin"
+        >
+        </iframe>
+        <hr class="hr" />
+        <h3>Text avatars</h3>
+        <p>
+          The user's initials can also be used in an avatar. Include class
+          <span class="code">avatar-text</span> along with aforementioned size
+          classes as per your requirements (e.g.,
+          <span class="code">class="avatar avatar-text avatar-lg"</span>).
+        </p>
+        <hr class="hr" />
+        <div class="avatar-wrapper">
+          <div class="avatar avatar-lg avatar-text">
+            <span>PR</span>
+          </div>
+          <div class="avatar avatar-md avatar-text">
+            <span>PR</span>
+          </div>
+          <div class="avatar avatar-sm avatar-text">
+            <span>PR</span>
+          </div>
+          <div class="avatar avatar-xs avatar-text">
+            <span>PR</span>
+          </div>
+        </div>
+        <hr class="hr" />
+        <iframe
+          src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=3024-night&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522avatar%2520avatar-lg%2520avatar-text%2522%253E%250A%2520%2520%253Cspan%253EPR%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520avatar-md%2520avatar-text%2522%253E%250A%2520%2520%253Cspan%253EPR%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520avatar-sm%2520avatar-text%2522%253E%250A%2520%2520%253Cspan%253EPR%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520avatar-xs%2520avatar-text%2522%253E%250A%253Cspan%253EPR%253C%252Fspan%253E"
+          style="
+            width: 546px;
+            height: 375px;
+            border: 0;
+            transform: scale(1);
+            overflow: hidden;
+          "
+          sandbox="allow-scripts allow-same-origin"
+        >
+        </iframe>
+      </section>
+    </main>
+    <script
+      src="https://kit.fontawesome.com/43943f2889.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

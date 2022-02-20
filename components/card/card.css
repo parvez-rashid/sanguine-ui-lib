@@ -1,0 +1,127 @@
+:root {
+  --primary-color: #bc3f4a;
+  --grey: #d3d4d5;
+  --white: #ffffff;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.card {
+  font-family: "Montserrat", sans-serif;
+  position: relative;
+  font-size: 1.6rem;
+  height: max-content;
+  padding: 1.5rem;
+}
+
+.txt-card {
+  width: 40rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: stretch;
+}
+
+.card-vertical {
+  width: 40rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: stretch;
+}
+
+.card-horizontal {
+  width: 65rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.top-half {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.btn-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-wrapper button {
+  font-size: 1.6rem;
+  padding: 4px 8px;
+  border-radius: 3px;
+  background: none;
+  border: none;
+  color: var(--primary-color);
+}
+
+.btn-wrapper button:hover {
+  background: var(--grey);
+  cursor: pointer;
+}
+
+.img-responsive {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-badge {
+  display: inline-block;
+  background: var(--primary-color);
+  color: var(--white);
+  font-weight: bold;
+  padding: 3px;
+  margin-top: 5px;
+}
+
+.card-dismiss {
+  position: relative;
+}
+
+.icon-dismiss {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  padding: 3px 6px;
+  border-radius: 50%;
+}
+
+.icon-dismiss:hover {
+  cursor: pointer;
+  color: var(--white);
+  background: var(--primary-color);
+}
+
+.text-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: var(--grey);
+  opacity: 0.75;
+  z-index: 2;
+}
+
+.box-shadow {
+  box-shadow: 0 0 7px 0 var(--grey);
+}
+
+.border-rad-md {
+  border-radius: 5px;
+}
+
+.border-rad-sm {
+  border-radius: 3px;
+}

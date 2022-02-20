@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/main.css" />
+    <title>Badges | Sanguine</title>
+  </head>
+  <body>
+    <nav class="navigation">
+      <div class="nav-logo">SANGUINE</div>
+      <ul class="list-style-none list-inline">
+        <li>
+          <i class="fa-solid fa-house"></i>
+          <a class="options link" href="/index.html">home</a>
+        </li>
+        <li>
+          <i class="fa-solid fa-layer-group"></i>
+          <a class="options link link-active" href="/documentation.html"
+            >documentation</a
+          >
+        </li>
+        <li>
+          <i class="fa-brands fa-github"></i>
+          <a
+            class="options link"
+            href="https://github.com/parvez-rashid/sanguine-ui-lib/tree/dev"
+            target="_blank"
+            >github</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <main class="documentation">
+      <aside class="sidebar padding-lg">
+        <ul class="list-style-none">
+          <li class="padding-lg">
+            <a
+              class="primary-color cursor-pointer text-dec-none"
+              href="/components/alert/alert.html"
+              >Alert</a
+            >
+          </li>
+          <li class="padding-lg">
+            <a
+              class="primary-color cursor-pointer text-dec-none"
+              href="/components/button/button.html"
+              >Button</a
+            >
+          </li>
+          <li class="padding-lg">
+            <a
+              class="primary-color cursor-pointer text-dec-none"
+              href="/components/avatar/avatar.html"
+              >Avatar</a
+            >
+          </li>
+          <li class="padding-lg">
+            <a
+              class="primary-color cursor-pointer text-dec-none link-active"
+              href="/components/badge/badge.html"
+              >Badge</a
+            >
+          </li>
+          <li class="padding-lg">
+            <a
+              class="primary-color cursor-pointer text-dec-none"
+              href="/components/card/card.html"
+              >Card</a
+            >
+          </li>
+          <li class="padding-lg">
+            <a
+              class="primary-color cursor-pointer text-dec-none"
+              href="/components/image/image.html"
+              >Image</a
+            >
+          </li>
+          <li class="padding-lg">
+            <a
+              class="primary-color cursor-pointer text-dec-none"
+              href="/components/input/input.html"
+              >Input</a
+            >
+          </li>
+          <li class="padding-lg">
+            <a
+              class="primary-color cursor-pointer text-dec-none"
+              href="/components/navigation/navigation.html"
+              >Navigation</a
+            >
+          </li>
+          <li class="padding-lg">
+            <a
+              class="primary-color cursor-pointer text-dec-none"
+              href="/components/list/list.html"
+              >Lists</a
+            >
+          </li>
+          <li class="padding-lg">
+            <a
+              class="primary-color cursor-pointer text-dec-none"
+              href="/components/typography/typography.html"
+              >Typography</a
+            >
+          </li>
+        </ul>
+      </aside>
+      <section class="components">
+        <h1 class="h1 text-wt-bold">Badges</h1>
+        <p>
+          Badges are used to indicate notifications or user activity status.
+        </p>
+        <hr class="hr" />
+        <h3>Usage of status badges</h3>
+        <p>
+          We can have badges on avatars showing the user's activity status. You
+          can use <span class="code">badge-online</span>,
+          <span class="code">badge-away</span>,
+          <span class="code">badge-busy</span>, or
+          <span class="code">badge-offline</span> to indicate user status, along
+          with generic class <span class="code">badge</span>. Badge can also be
+          had in various sizes according to avatar size; use class
+          <span class="code">badge-lg</span>,
+          <span class="code">badge-md</span>,
+          <span class="code">badge-sm</span>, or
+          <span class="code">badge-xs</span>.
+        </p>
+        <hr class="hr" />
+        <div class="badge-wrapper">
+          <div class="avatar avatar-lg badge-container">
+            <img
+              class="img-responsive img-round"
+              src="/assets/images/avatar.jpg"
+              alt="avatar-large"
+            />
+            <span class="badge badge-online badge-lg"></span>
+          </div>
+          <div class="avatar avatar-md badge-container">
+            <img
+              class="img-responsive img-round"
+              src="/assets/images/avatar.jpg"
+              alt="avatar-medium"
+            />
+            <span class="badge badge-away badge-md"></span>
+          </div>
+          <div class="avatar avatar-sm badge-container">
+            <img
+              class="img-responsive img-round"
+              src="/assets/images/avatar.jpg"
+              alt="avatar-small"
+            />
+            <span class="badge badge-busy badge-sm"></span>
+          </div>
+          <div class="avatar avatar-xs badge-container">
+            <img
+              class="img-responsive img-round"
+              src="/assets/images/avatar.jpg"
+              alt="avatar-extra-small"
+            />
+            <span class="badge badge-offline badge-xs"></span>
+          </div>
+        </div>
+        <hr class="hr" />
+        <iframe
+          src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=3024-night&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522avatar%2520avatar-lg%2520badge-container%2522%253E%250A%2520%2520%253Cimg%2520src%253D%2522%252Fassets%252Fimages%252Favatar.jpg%2522%2520alt%253D%2522avatar-large%2522%2520%252F%253E%250A%2520%2520%253Cspan%2520class%253D%2522badge%2520badge-online%2520badge-lg%2522%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520avatar-md%2520badge-container%2522%253E%250A%2520%2520%253Cimg%2520src%253D%2522%252Fassets%252Fimages%252Favatar.jpg%2522%2520alt%253D%2522avatar-medium%2522%2520%252F%253E%250A%2520%2520%253Cspan%2520class%253D%2522badge%2520badge-away%2520badge-md%2522%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520avatar-sm%2520badge-container%2522%253E%250A%2520%2520%253Cimg%2520src%253D%2522%252Fassets%252Fimages%252Favatar.jpg%2522%2520alt%253D%2522avatar-small%2522%2520%252F%253E%250A%2520%2520%253Cspan%2520class%253D%2522badge%2520badge-busy%2520badge-sm%2522%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520avatar-xs%2520badge-container%2522%253E%250A%2520%2520%253Cimg%2520src%253D%2522%252Fassets%252Fimages%252Favatar.jpg%2522%2520alt%253D%2522avatar-extra-small%2522%2520%252F%253E%250A%2520%2520%253Cspan%2520class%253D%2522badge%2520badge-offline%2520badge-xs%2522%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E"
+          style="
+            width: 690px;
+            height: 468px;
+            border: 0;
+            transform: scale(1);
+            overflow: hidden;
+          "
+          sandbox="allow-scripts allow-same-origin"
+        >
+        </iframe>
+        <hr class="hr" />
+        <h3>Number badges</h3>
+        <p>
+          Number badges can be used to indicate notification count. Simply
+          include class <span class="code">badge-number</span> to use this.
+        </p>
+        <hr class="hr" />
+        <div class="badge-wrapper">
+          <div class="badge-container">
+            <img
+              src="/assets/images/IcRoundShoppingCart.svg"
+              alt="shopping-cart"
+            />
+            <span class="badge-number">10</span>
+          </div>
+          <div class="badge-container">
+            <img src="/assets/images/MdiInbox.svg" alt="mail inbox" />
+            <span class="badge-number">20</span>
+          </div>
+          <div class="badge-container">
+            <img
+              src="/assets/images/MdiBellRingOutline.svg"
+              alt="notifications"
+            />
+            <span class="badge-number">30</span>
+          </div>
+          <div class="badge-container">
+            <img src="/assets/images/MdiAndroidMessages.svg" alt="messages" />
+            <span class="badge-number"></span>
+          </div>
+        </div>
+        <hr class="hr" />
+        <iframe
+          src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=3024-night&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%253Cimg%250A%2520%2520%2520%2520src%253D%2522%252Fassets%252Fimages%252FIcRoundShoppingCart.svg%2522%250A%2520%2520%2520%2520alt%253D%2522shopping-cart%2522%250A%2520%2520%2520%2520%252F%253E%250A%2520%2520%253Cspan%2520class%253D%2522number-badge%2522%253E9%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%253Cimg%2520src%253D%2522%252Fassets%252Fimages%252FMdiInbox.svg%2522%2520alt%253D%2522shopping-cart%2522%2520%252F%253E%250A%2520%2520%253Cspan%2520class%253D%2522number-badge%2522%253E20%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%253Cimg%250A%2520%2520%2520%2520src%253D%2522%252Fassets%252Fimages%252FMdiBellRingOutline.svg%2522%250A%2520%2520%2520%2520alt%253D%2522shopping-cart%2522%250A%2520%2520%2520%2520%252F%253E%250A%2520%2520%253Cspan%2520class%253D%2522number-badge%2522%253E30%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%253Cimg%250A%2520%2520%2520%2520src%253D%2522%252Fassets%252Fimages%252FMdiAndroidMessages.svg%2522%250A%2520%2520%2520%2520alt%253D%2522shopping-cart%2522%250A%2520%2520%2520%2520%252F%253E%250A%2520%2520%253Cspan%2520class%253D%2522number-badge%2522%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E"
+          style="
+            width: 665px;
+            height: 635px;
+            border: 0;
+            transform: scale(1);
+            overflow: hidden;
+          "
+          sandbox="allow-scripts allow-same-origin"
+        >
+        </iframe>
+      </section>
+    </main>
+    <script
+      src="https://kit.fontawesome.com/43943f2889.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

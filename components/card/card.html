@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/main.css" />
+    <title>Cards | Sanguine</title>
+  </head>
+  <body>
+    <nav class="navigation">
+      <div class="nav-logo">SANGUINE</div>
+      <ul class="list-style-none list-inline">
+        <li>
+          <i class="fa-solid fa-house"></i>
+          <a class="options link" href="/index.html">home</a>
+        </li>
+        <li>
+          <i class="fa-solid fa-layer-group"></i>
+          <a class="options link link-active" href="/documentation.html"
+            >documentation</a
+          >
+        </li>
+        <li>
+          <i class="fa-brands fa-github"></i>
+          <a
+            class="options link"
+            href="https://github.com/parvez-rashid/sanguine-ui-lib/tree/dev"
+            target="_blank"
+            >github</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <main class="documentation">
+      <aside class="sidebar padding-lg">
+        <ul class="list-style-none">
+          <li class="padding-lg">
+            <a
+              class="primary-color cursor-pointer text-dec-none"
+              href="/components/alert/alert.html"
+              >Alert</a
+            >
+          </li>
+          <li class="padding-lg">
+            <a
+              class="primary-color cursor-pointer text-dec-none"
+              href="/components/button/button.html"
+              >Button</a
+            >
+          </li>
+          <li class="padding-lg">
+            <a
+              class="primary-color cursor-pointer text-dec-none"
+              href="/components/avatar/avatar.html"
+              >Avatar</a
+            >
+          </li>
+          <li class="padding-lg">
+            <a
+              class="primary-color cursor-pointer text-dec-none"
+              href="/components/badge/badge.html"
+              >Badge</a
+            >
+          </li>
+          <li class="padding-lg">
+            <a
+              class="primary-color cursor-pointer text-dec-none link-active"
+              href="/components/card/card.html"
+              >Card</a
+            >
+          </li>
+          <li class="padding-lg">
+            <a
+              class="primary-color cursor-pointer text-dec-none"
+              href="/components/image/image.html"
+              >Image</a
+            >
+          </li>
+          <li class="padding-lg">
+            <a
+              class="primary-color cursor-pointer text-dec-none"
+              href="/components/input/input.html"
+              >Input</a
+            >
+          </li>
+          <li class="padding-lg">
+            <a
+              class="primary-color cursor-pointer text-dec-none"
+              href="/components/navigation/navigation.html"
+              >Navigation</a
+            >
+          </li>
+          <li class="padding-lg">
+            <a
+              class="primary-color cursor-pointer text-dec-none"
+              href="/components/list/list.html"
+              >Lists</a
+            >
+          </li>
+          <li class="padding-lg">
+            <a
+              class="primary-color cursor-pointer text-dec-none"
+              href="/components/typography/typography.html"
+              >Typography</a
+            >
+          </li>
+        </ul>
+      </aside>
+      <section class="components">
+        <h1 class="h1 text-wt-bold">Cards</h1>
+        <p>
+          A card groups related information in a flexible-size container
+          visually resembling a physical playing card.
+        </p>
+        <hr class="hr" />
+        <h3>Usage of cards</h3>
+        <p>There are various styles of cards, check them out below.</p>
+        <hr class="hr" />
+        <div class="card-container">
+          <div class="card card-vertical card-txt box-shadow border-rad-md">
+            <h1>CARD</h1>
+            <h2>Text card</h2>
+            <p>
+              This is a text card. Use class
+              <span class="code">card</span> along with
+              <span class="code">card-txt</span> to use this card. 
+              <hr class="hr">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit officia totam
+              iure, omnis dolorem reprehenderit cupiditate possimus provident
+              harum, nulla minima hic, ratione aspernatur odit esse assumenda
+              iste beatae asperiores perspiciatis ad impedit labore. Porro hic
+              sed perferendis magnam animi inventore?
+            </p>
+          </div>
+
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=3024-night&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520card-text%2522%253E%250A%2520%2520%253Ch1%253E...%253C%252Fh1%253E%250A%2520%2520%253Ch2%253E...%253C%252Fh2%253E%250A%2520%2520%253Cp%253E...%253C%252Fp%253E%250A%253C%252Fdiv%253E"
+            style="width: 370px; height: 263px; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+          </iframe>
+
+          <div
+            class="card card-vertical card-txt card-dismiss box-shadow border-rad-md"
+          >
+            <h1>CARD</h1>
+            <i class="icon-dismiss fa-solid fa-xmark"></i>
+            <h2>Card with dismiss</h2>
+            <p>
+              This is a card with dismiss. Use class <span class="code">card-dismiss</span> to use this style.
+              <hr class="hr">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
+              officia totam iure, omnis dolorem reprehenderit cupiditate
+              possimus provident harum, nulla minima hic, ratione aspernatur
+              odit esse assumenda iste beatae asperiores perspiciatis ad impedit
+              labore. Porro hic sed perferendis magnam animi inventore?
+            </p>
+          </div>
+
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=3024-night&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520card-dismiss%2522%253E%250A%2520%2520%253Ch1%253E...%253C%252Fh1%253E%250A%2520%2520%253Ch2%253E...%253C%252Fh2%253E%250A%2520%2520%253Cp%253E...%253C%252Fp%253E%250A%253C%252Fdiv%253E"
+            style="width: 395px; height: 263px; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+          </iframe>
+
+          <div class="card card-vertical box-shadow border-rad-md">
+            <img
+              class="border-rad-md"
+              src="/components/card/src/image.jpg"
+              alt="mountain-lake-northern-lights"
+            />
+            <h3>Vertical card</h3>
+            <p>
+              This is a vertical card. Use class <span class="code">card-vertical</span> to use this card.
+              <hr class="hr">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
+              molestiae numquam quis illum itaque.
+            </p>
+            <div class="btn-wrapper">
+              <span><button>READ</button></span>
+              <span><button>BOOKMARK</button></span>
+              <span
+                ><button><i class="fa-regular fa-heart"></i></button
+              ></span>
+              <span
+                ><button><i class="fa-solid fa-share-nodes"></i></button
+              ></span>
+              <span
+                ><button><i class="fa-solid fa-ellipsis-vertical"></i></button
+              ></span>
+            </div>
+          </div>
+
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=3024-night&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520card-vertical%2522%253E%250A%2520%2520%253Ch1%253E...%253C%252Fh1%253E%250A%2520%2520%253Ch2%253E...%253C%252Fh2%253E%250A%2520%2520%253Cp%253E...%253C%252Fp%253E%250A%253C%252Fdiv%253E"
+            style="width: 404px; height: 263px; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+          </iframe>
+
+          <div class="card card-horizontal box-shadow border-rad-md">
+            <div class="top-half">
+              <div class="img-wrapper">
+                <img
+                  class="img-responsive border-rad-md"
+                  src="/components/card/src/image.jpg"
+                  alt="mountain-lake-northern-lights"
+                />
+              </div>
+              <div class="description">
+                <h3>Horizontal card</h3>
+                <p>
+                  This is a horizontal card. Use class <span class="code">card-horizontal</span> to use this card.
+                  <hr class="hr">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Beatae molestiae numquam quis illum itaque.
+                </p>
+              </div>
+            </div>
+            <div class="btn-wrapper">
+              <span><button>READ</button></span>
+              <span><button>BOOKMARK</button></span>
+              <span
+                ><button><i class="fa-regular fa-heart"></i></button
+              ></span>
+              <span
+                ><button><i class="fa-solid fa-share-nodes"></i></button
+              ></span>
+              <span
+                ><button><i class="fa-solid fa-ellipsis-vertical"></i></button
+              ></span>
+            </div>
+          </div>
+
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=3024-night&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520card-horizontal%2522%253E%250A%2520%2520%253Ch1%253E...%253C%252Fh1%253E%250A%2520%2520%253Ch2%253E...%253C%252Fh2%253E%250A%2520%2520%253Cp%253E...%253C%252Fp%253E%250A%253C%252Fdiv%253E"
+            style="width: 421px; height: 263px; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+          </iframe>
+
+          <div class="card card-horizontal box-shadow border-rad-md">
+            <div class="top-half">
+              <div class="img-wrapper">
+                <img
+                  class="img-responsive border-rad-md"
+                  src="/components/card/src/image.jpg"
+                  alt="mountain-lake-northern-lights"
+                />
+              </div>
+              <div class="description">
+                <h3>Card with badge</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Beatae molestiae numquam quis illum itaque.
+                </p>
+                <span class="card-badge border-rad-sm">NEW</span>
+              </div>
+            </div>
+            <div class="btn-wrapper">
+              <span><button>READ</button></span>
+              <span><button>BOOKMARK</button></span>
+              <span
+                ><button><i class="fa-regular fa-heart"></i></button
+              ></span>
+              <span
+                ><button><i class="fa-solid fa-share-nodes"></i></button
+              ></span>
+              <span
+                ><button><i class="fa-solid fa-ellipsis-vertical"></i></button
+              ></span>
+            </div>
+          </div>
+
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=3024-night&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520card-horizontal%2522%253E%250A%2520%2520%253Ch1%253E...%253C%252Fh1%253E%250A%2520%2520%253Ch2%253E...%253C%252Fh2%253E%250A%2520%2520%253Cp%253E...%253C%252Fp%253E%250A%2520%2520%253Cspan%2520class%253D%2522card-badge%2522%253E%250A%2520%2520%2520%2520...%250A%2520%2520%253C%252Fspan%253E%250A%253C%252Fdiv%253E"
+            style="width: 421px; height: 319px; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+          </iframe>
+
+          <div class="card card-vertical box-shadow border-rad-md">
+            <div class="text-overlay vertical-card border-rad-md">
+              <h1>Not available</h1>
+            </div>
+            <img
+              class="border-rad-md"
+              src="/components/card/src/image.jpg"
+              alt="mountain-lake-northern-lights"
+            />
+            <h3>Card with text overlay</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
+              molestiae numquam quis illum itaque, sint, nostrum sit unde,
+              dignissimos totam natus enim.
+            </p>
+            <div class="btn-wrapper">
+              <span><button>READ</button></span>
+              <span><button>BOOKMARK</button></span>
+              <span
+                ><button><i class="fa-regular fa-heart"></i></button
+              ></span>
+              <span
+                ><button><i class="fa-solid fa-share-nodes"></i></button
+              ></span>
+              <span
+                ><button><i class="fa-solid fa-ellipsis-vertical"></i></button
+              ></span>
+            </div>
+          </div>
+
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=3024-night&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520card-horizontal%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522text-overlay%2522%253E%250A%2520%2520%2520%2520...%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Ch1%253E...%253C%252Fh1%253E%250A%2520%2520%253Ch2%253E...%253C%252Fh2%253E%250A%2520%2520%253Cp%253E...%253C%252Fp%253E%250A%253C%252Fdiv%253E"
+            style="width: 421px; height: 319px; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+          </iframe>
+
+        </div>
+      </section>
+    </main>
+    <script
+      src="https://kit.fontawesome.com/43943f2889.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

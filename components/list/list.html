@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/main.css" />
+    <title>Lists | Sanguine</title>
+  </head>
+  <body>
+    <nav class="navigation">
+      <div class="nav-logo">SANGUINE</div>
+      <ul class="list-style-none list-inline">
+        <li>
+          <i class="fa-solid fa-house"></i>
+          <a class="options link" href="/index.html">home</a>
+        </li>
+        <li>
+          <i class="fa-solid fa-layer-group"></i>
+          <a class="options link link-active" href="/documentation.html"
+            >documentation</a
+          >
+        </li>
+        <li>
+          <i class="fa-brands fa-github"></i>
+          <a
+            class="options link"
+            href="https://github.com/parvez-rashid/sanguine-ui-lib/tree/dev"
+            target="_blank"
+            >github</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <main class="documentation">
+      <aside class="sidebar padding-lg">
+        <ul class="list-style-none">
+          <li class="padding-lg">
+            <a
+              class="primary-color cursor-pointer text-dec-none"
+              href="/components/alert/alert.html"
+              >Alert</a
+            >
+          </li>
+          <li class="padding-lg">
+            <a
+              class="primary-color cursor-pointer text-dec-none"
+              href="/components/button/button.html"
+              >Button</a
+            >
+          </li>
+          <li class="padding-lg">
+            <a
+              class="primary-color cursor-pointer text-dec-none"
+              href="/components/avatar/avatar.html"
+              >Avatar</a
+            >
+          </li>
+          <li class="padding-lg">
+            <a
+              class="primary-color cursor-pointer text-dec-none"
+              href="/components/badge/badge.html"
+              >Badge</a
+            >
+          </li>
+          <li class="padding-lg">
+            <a
+              class="primary-color cursor-pointer text-dec-none"
+              href="/components/card/card.html"
+              >Card</a
+            >
+          </li>
+          <li class="padding-lg">
+            <a
+              class="primary-color cursor-pointer text-dec-none"
+              href="/components/image/image.html"
+              >Image</a
+            >
+          </li>
+          <li class="padding-lg">
+            <a
+              class="primary-color cursor-pointer text-dec-none"
+              href="/components/input/input.html"
+              >Input</a
+            >
+          </li>
+          <li class="padding-lg">
+            <a
+              class="primary-color cursor-pointer text-dec-none"
+              href="/components/navigation/navigation.html"
+              >Navigation</a
+            >
+          </li>
+          <li class="padding-lg">
+            <a
+              class="primary-color cursor-pointer text-dec-none link-active"
+              href="/components/list/list.html"
+              >Lists</a
+            >
+          </li>
+          <li class="padding-lg">
+            <a
+              class="primary-color cursor-pointer text-dec-none"
+              href="/components/typography/typography.html"
+              >Typography</a
+            >
+          </li>
+        </ul>
+      </aside>
+      <section class="components">
+        <h1 class="h1 text-wt-bold">Lists</h1>
+        <p>
+          Lists are used to present list of information in well formed and
+          semantic way.
+        </p>
+        <hr class="hr" />
+        <h3>Unordered lists</h3>
+        <p>
+          Unordered list can be used to list items where there is no particular
+          order or priority needed. Include class
+          <span class="code">list</span>. For different styles of unordered
+          lists, use classes <span class="code">list-style-circle</span>,
+          <span class="code">list-style-square</span>, or
+          <span class="code">list-style-none</span>.
+        </p>
+        <div class="list-container">
+          <ul class="list">
+            <li>List item-1</li>
+            <li>List item-2</li>
+            <li>List item-3</li>
+          </ul>
+          <ul class="list list-style-circle">
+            <li>List item-1</li>
+            <li>List item-2</li>
+            <li>List item-3</li>
+          </ul>
+          <ul class="list list-style-square">
+            <li>List item-1</li>
+            <li>List item-2</li>
+            <li>List item-3</li>
+          </ul>
+          <ul class="list list-style-none">
+            <li>List item-1</li>
+            <li>List item-2</li>
+            <li>List item-3</li>
+          </ul>
+        </div>
+        <iframe
+          src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=3024-night&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cul%2520class%253D%2522list%2522%253E%250A%2520%2520%253Cli%253EList%2520item-1%253C%252Fli%253E%250A%2520%2520%253Cli%253EList%2520item-2%253C%252Fli%253E%250A%2520%2520%253Cli%253EList%2520item-3%253C%252Fli%253E%250A%253C%252Ful%253E%250A%253Cul%2520class%253D%2522list%2520list-style-circle%2522%253E%250A%2520%2520%253Cli%253EList%2520item-1%253C%252Fli%253E%250A%2520%2520%253Cli%253EList%2520item-2%253C%252Fli%253E%250A%2520%2520%253Cli%253EList%2520item-3%253C%252Fli%253E%250A%253C%252Ful%253E%250A%253Cul%2520class%253D%2522list%2520list-style-square%2522%253E%250A%2520%2520%253Cli%253EList%2520item-1%253C%252Fli%253E%250A%2520%2520%253Cli%253EList%2520item-2%253C%252Fli%253E%250A%2520%2520%253Cli%253EList%2520item-3%253C%252Fli%253E%250A%253C%252Ful%253E%250A%253Cul%2520class%253D%2522list%2520list-style-none%2522%253E%250A%2520%2520%253Cli%253EList%2520item-1%253C%252Fli%253E%250A%2520%2520%253Cli%253EList%2520item-2%253C%252Fli%253E%250A%2520%2520%253Cli%253EList%2520item-3%253C%252Fli%253E%250A%253C%252Ful%253E"
+          style="
+            width: 446px;
+            height: 558px;
+            border: 0;
+            transform: scale(1);
+            overflow: hidden;
+          "
+          sandbox="allow-scripts allow-same-origin"
+        >
+        </iframe>
+
+        <h3>Ordered lists</h3>
+        <p>
+          Ordered lists are used to list items where priority is needed. Use
+          class <span class="code">list</span> alongwith different styles of
+          ordered lists: <span class="code">list-style-leading-zero</span>,
+          <span class="code">list-style-letter-lowcase</span>, or
+          <span class="code">list-style-letter-upcase</span>,
+          <span class="code">list-style-roman-lowcase</span>, or
+          <span class="code">list-style-roman-upcase</span>.
+        </p>
+        <div class="list-container">
+          <ol class="list">
+            <li>List item-1</li>
+            <li>List item-2</li>
+            <li>List item-3</li>
+          </ol>
+          <ol class="list list-style-leading-zero">
+            <li>List item-1</li>
+            <li>List item-2</li>
+            <li>List item-3</li>
+          </ol>
+          <ol class="list list-style-letter-lowcase">
+            <li>List item-1</li>
+            <li>List item-2</li>
+            <li>List item-3</li>
+          </ol>
+          <ol class="list list-style-letter-upcase">
+            <li>List item-1</li>
+            <li>List item-2</li>
+            <li>List item-3</li>
+          </ol>
+          <ol class="list list-style-roman-lowcase">
+            <li>List item-1</li>
+            <li>List item-2</li>
+            <li>List item-3</li>
+          </ol>
+          <ol class="list list-style-roman-upcase">
+            <li>List item-1</li>
+            <li>List item-2</li>
+            <li>List item-3</li>
+          </ol>
+        </div>
+        <iframe
+          src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=3024-night&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Col%2520class%253D%2522list%2522%253E%250A%2520%2520%253Cli%253EList%2520item-1%253C%252Fli%253E%250A%2520%2520%253Cli%253EList%2520item-2%253C%252Fli%253E%250A%2520%2520%253Cli%253EList%2520item-3%253C%252Fli%253E%250A%253C%252Fol%253E%250A%253Col%2520class%253D%2522list%2520list-style-leading-zero%2522%253E%250A%2520%2520%253Cli%253EList%2520item-1%253C%252Fli%253E%250A%2520%2520%253Cli%253EList%2520item-2%253C%252Fli%253E%250A%2520%2520%253Cli%253EList%2520item-3%253C%252Fli%253E%250A%253C%252Fol%253E%250A%253Col%2520class%253D%2522list%2520list-style-letter-lowcase%2522%253E%250A%2520%2520%253Cli%253EList%2520item-1%253C%252Fli%253E%250A%2520%2520%253Cli%253EList%2520item-2%253C%252Fli%253E%250A%2520%2520%253Cli%253EList%2520item-3%253C%252Fli%253E%250A%253C%252Fol%253E%250A%253Col%2520class%253D%2522list%2520list-style-letter-upcase%2522%253E%250A%2520%2520%253Cli%253EList%2520item-1%253C%252Fli%253E%250A%2520%2520%253Cli%253EList%2520item-2%253C%252Fli%253E%250A%2520%2520%253Cli%253EList%2520item-3%253C%252Fli%253E%250A%253C%252Fol%253E%250A%253Col%2520class%253D%2522list%2520list-style-roman-lowcase%2522%253E%250A%2520%2520%253Cli%253EList%2520item-1%253C%252Fli%253E%250A%2520%2520%253Cli%253EList%2520item-2%253C%252Fli%253E%250A%2520%2520%253Cli%253EList%2520item-3%253C%252Fli%253E%250A%253C%252Fol%253E%250A%253Col%2520class%253D%2522list%2520list-style-roman-upcase%2522%253E%250A%2520%2520%253Cli%253EList%2520item-1%253C%252Fli%253E%250A%2520%2520%253Cli%253EList%2520item-2%253C%252Fli%253E%250A%2520%2520%253Cli%253EList%2520item-3%253C%252Fli%253E%250A%253C%252Fol%253E"
+          style="
+            width: 513px;
+            height: 744px;
+            border: 0;
+            transform: scale(1);
+            overflow: hidden;
+          "
+          sandbox="allow-scripts allow-same-origin"
+        >
+        </iframe>
+
+        <h3>Inline lists</h3>
+        <p>
+          Inline lists can be used where items need to be inline, in a
+          horizontal navigation bar for example. Use class
+          <span class="code">list-inline</span> to use inline list.
+        </p>
+        <div class="list-container">
+          <ul class="list list-inline list-style-none">
+            <li>List item-1</li>
+            <li>List item-2</li>
+            <li>List item-3</li>
+          </ul>
+        </div>
+        <iframe
+          src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=3024-night&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cul%2520class%253D%2522list%2520list-inline%2520list-style-none%2522%253E%250A%2520%2520%253Cli%253EList%2520item-1%253C%252Fli%253E%250A%2520%2520%253Cli%253EList%2520item-2%253C%252Fli%253E%250A%2520%2520%253Cli%253EList%2520item-3%253C%252Fli%253E%250A%253C%252Ful%253E"
+          style="
+            width: 530px;
+            height: 279px;
+            border: 0;
+            transform: scale(1);
+            overflow: hidden;
+          "
+          sandbox="allow-scripts allow-same-origin"
+        >
+        </iframe>
+      </section>
+    </main>
+    <script
+      src="https://kit.fontawesome.com/43943f2889.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

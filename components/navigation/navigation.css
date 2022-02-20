@@ -1,0 +1,60 @@
+:root {
+  --primary-color: #bc3f4a;
+  --white: #f3f4f6;
+}
+
+.nav-logo {
+  font-family: "Monoton", cursive;
+  font-size: 3rem;
+  cursor: pointer;
+}
+
+.link {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.link-active {
+  font-weight: 700;
+}
+
+.list-inline {
+  display: flex;
+  list-style-type: none;
+  gap: 2rem;
+}
+
+.navigation {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 3px 3px 2px var(--white);
+  color: var(--primary-color);
+  text-decoration: none;
+  padding: 2.4rem 2rem;
+}
+
+.navigation-alt {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--white);
+  background: var(--primary-color);
+  text-decoration: none;
+  padding: 2.4rem 4rem;
+  margin: 1.2rem 1.2rem;
+}
+
+.options {
+  color: var(--primary-color);
+  text-align: right;
+}
+
+.options-alt {
+  color: var(--white);
+  text-align: right;
+}

@@ -1,0 +1,98 @@
+:root {
+  --gray: #9ca3af;
+}
+
+.example-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  font-family: "Montserrat", sans-serif;
+  padding: 2rem;
+  gap: 1.2rem;
+}
+
+.h1 {
+  font-size: 4rem;
+  font-weight: 600;
+}
+.h2 {
+  font-size: 3.5rem;
+  font-weight: 600;
+}
+.h3 {
+  font-size: 3rem;
+  font-weight: 600;
+}
+.h4 {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+.h5 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.h6 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.text-size-xl {
+  font-size: 3rem;
+}
+
+.text-size-lg {
+  font-size: 2.5rem;
+}
+
+.text-size-md {
+  font-size: 2rem;
+}
+
+.text-size-sm {
+  font-size: 1.5rem;
+}
+
+.text-size-xs {
+  font-size: 1rem;
+}
+
+.text-wt-bold {
+  font-weight: 700;
+}
+
+.text-wt-semibold {
+  font-weight: 500;
+}
+
+.text-wt-normal {
+  font-weight: 400;
+}
+
+.text-wt-light {
+  font-weight: 300;
+}
+
+.text-wt-thin {
+  font-weight: 100;
+}
+
+.text-style-gray {
+  color: var(--gray);
+}
+
+.text-style-center {
+  text-align: center;
+}
+
+.text-style-italic {
+  font-style: italic;
+}
+
+.text-style-underline {
+  text-decoration: underline;
+}
+
+.text-style-strike {
+  text-decoration: line-through;
+}

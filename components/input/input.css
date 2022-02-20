@@ -1,0 +1,39 @@
+:root {
+  --input-green: #16a34a;
+  --input-yellow: #facc15;
+  --input-red: #dc2626;
+  --input-black: #000000;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  max-width: 50rem;
+  gap: 1.25rem;
+  padding: 2rem;
+}
+
+.txt-box {
+  border: 1.5px solid var(--input-black);
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.pwd-box {
+  border: 1.5px solid var(--input-black);
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.success {
+  border: 2px solid var(--input-green);
+}
+
+.warning {
+  border: 2px solid var(--input-yellow);
+}
+
+.error {
+  border: 2px solid var(--input-red);
+}

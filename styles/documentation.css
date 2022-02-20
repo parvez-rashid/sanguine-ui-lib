@@ -1,0 +1,33 @@
+.documentation {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  line-height: 1.5;
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  gap: 2rem;
+}
+
+.sidebar {
+  background: var(--primary-color);
+  font-size: 2rem;
+  align-self: start;
+}
+
+.sidebar a {
+  color: var(--white);
+}
+
+.code {
+  color: var(--primary-color);
+}
+
+.hr {
+  border-top: 1px solid lightgray;
+}
+
+.components {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 2rem 0;
+}

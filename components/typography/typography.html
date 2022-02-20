@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/main.css" />
+    <title>Typography | Sanguine</title>
+  </head>
+  <body>
+    <nav class="navigation">
+      <div class="nav-logo">SANGUINE</div>
+      <ul class="list-style-none list-inline">
+        <li>
+          <i class="fa-solid fa-house"></i>
+          <a class="options link" href="/index.html">home</a>
+        </li>
+        <li>
+          <i class="fa-solid fa-layer-group"></i>
+          <a class="options link link-active" href="/documentation.html"
+            >documentation</a
+          >
+        </li>
+        <li>
+          <i class="fa-brands fa-github"></i>
+          <a
+            class="options link"
+            href="https://github.com/parvez-rashid/sanguine-ui-lib/tree/dev"
+            target="_blank"
+            >github</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <main class="documentation">
+      <aside class="sidebar padding-lg">
+        <ul class="list-style-none">
+          <li class="padding-lg">
+            <a
+              class="primary-color cursor-pointer text-dec-none"
+              href="/components/alert/alert.html"
+              >Alert</a
+            >
+          </li>
+          <li class="padding-lg">
+            <a
+              class="primary-color cursor-pointer text-dec-none"
+              href="/components/button/button.html"
+              >Button</a
+            >
+          </li>
+          <li class="padding-lg">
+            <a
+              class="primary-color cursor-pointer text-dec-none"
+              href="/components/avatar/avatar.html"
+              >Avatar</a
+            >
+          </li>
+          <li class="padding-lg">
+            <a
+              class="primary-color cursor-pointer text-dec-none"
+              href="/components/badge/badge.html"
+              >Badge</a
+            >
+          </li>
+          <li class="padding-lg">
+            <a
+              class="primary-color cursor-pointer text-dec-none"
+              href="/components/card/card.html"
+              >Card</a
+            >
+          </li>
+          <li class="padding-lg">
+            <a
+              class="primary-color cursor-pointer text-dec-none"
+              href="/components/image/image.html"
+              >Image</a
+            >
+          </li>
+          <li class="padding-lg">
+            <a
+              class="primary-color cursor-pointer text-dec-none"
+              href="/components/input/input.html"
+              >Input</a
+            >
+          </li>
+          <li class="padding-lg">
+            <a
+              class="primary-color cursor-pointer text-dec-none"
+              href="/components/navigation/navigation.html"
+              >Navigation</a
+            >
+          </li>
+          <li class="padding-lg">
+            <a
+              class="primary-color cursor-pointer text-dec-none"
+              href="/components/list/list.html"
+              >Lists</a
+            >
+          </li>
+          <li class="padding-lg">
+            <a
+              class="primary-color cursor-pointer text-dec-none link-active"
+              href="/components/typography/typography.html"
+              >Typography</a
+            >
+          </li>
+        </ul>
+      </aside>
+      <section class="components">
+        <h1 class="h1 text-wt-bold">Typography</h1>
+        <p>
+          The default font for Sanguine is Montserrat. The root font-size is set
+          to 62.5%. Below are the text utilites.
+        </p>
+        <hr class="hr" />
+        <h3>Headings</h3>
+        <p>
+          Use classes <span class="code">h1</span>,
+          <span class="code">h2</span>, <span class="code">h3</span>,
+          <span class="code">h4</span>, <span class="code">h5</span>, or
+          <span class="code">h6</span> to use different headings according to
+          importance.
+        </p>
+        <div class="example-container">
+          <h1 class="h1">Heading-1</h1>
+          <h2 class="h2">Heading-2</h2>
+          <h3 class="h3">Heading-3</h3>
+          <h4 class="h4">Heading-4</h4>
+          <h5 class="h5">Heading-5</h5>
+          <h6 class="h6">Heading-6</h6>
+        </div>
+        <iframe
+          src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=3024-night&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Ch1%2520class%253D%2522h1%2522%253EHeading-1%253C%252Fh1%253E%250A%253Ch2%2520class%253D%2522h2%2522%253EHeading-2%253C%252Fh2%253E%250A%253Ch3%2520class%253D%2522h3%2522%253EHeading-3%253C%252Fh3%253E%250A%253Ch4%2520class%253D%2522h4%2522%253EHeading-4%253C%252Fh4%253E%250A%253Ch5%2520class%253D%2522h5%2522%253EHeading-5%253C%252Fh5%253E%250A%253Ch6%2520class%253D%2522h6%2522%253EHeading-6%253C%252Fh6%253E"
+          style="
+            width: 446px;
+            height: 282px;
+            border: 0;
+            transform: scale(1);
+            overflow: hidden;
+          "
+          sandbox="allow-scripts allow-same-origin"
+        >
+        </iframe>
+
+        <h3>Paragraph or text</h3>
+        <p>
+          Use classes <span class="code">text-size-xl</span>,
+          <span class="code">text-size-lg</span>,
+          <span class="code">text-size-md</span>,
+          <span class="code">text-size-sm</span>, or
+          <span class="code">text-size-xs</span> to use different text sizes.
+        </p>
+        <div class="example-container">
+          <p class="text-size-xl">Example of very large text</p>
+          <p class="text-size-lg">Example of large text</p>
+          <p class="text-size-md">Example of medium text</p>
+          <p class="text-size-sm">Example of small text</p>
+          <p class="text-size-xs">Example of very small text</p>
+        </div>
+        <iframe
+          src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=3024-night&wt=none&l=htmlmixed&width=445.5&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cp%2520class%253D%2522text-size-xl%2522%253EExample%2520of%2520very%2520large%2520text%253C%252Fp%253E%250A%253Cp%2520class%253D%2522text-size-lg%2522%253EExample%2520of%2520large%2520text%253C%252Fp%253E%250A%253Cp%2520class%253D%2522text-size-md%2522%253EExample%2520of%2520medium%2520text%253C%252Fp%253E%250A%253Cp%2520class%253D%2522text-size-sm%2522%253EExample%2520of%2520small%2520text%253C%252Fp%253E%250A%253Cp%2520class%253D%2522text-size-xs%2522%253EExample%2520of%2520very%2520small%2520text%253C%252Fp%253E"
+          style="
+            width: 711px;
+            height: 356px;
+            border: 0;
+            transform: scale(1);
+            overflow: hidden;
+          "
+          sandbox="allow-scripts allow-same-origin"
+        >
+        </iframe>
+
+        <h3>Font weights</h3>
+        <p>
+          Use classes <span class="code">text-wt-bold</span>,
+          <span class="code">text-wt-semibold</span>,
+          <span class="code">text-wt-normal</span>,
+          <span class="code">text-wt-light</span>, or
+          <span class="code">text-wt-thin</span> to use text with different
+          weights.
+        </p>
+        <div class="example-container">
+          <p class="text-wt-bold text-size-md">Example of bold weight text</p>
+          <p class="text-wt-semibold text-size-md">
+            Example of semi-bold weight text
+          </p>
+          <p class="text-wt-normal text-size-md">
+            Example of regular weight text
+          </p>
+          <p class="text-wt-light text-size-md">Example of light weight text</p>
+          <p class="text-wt-thin text-size-md">Example of thin weight text</p>
+        </div>
+        <iframe
+          src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=3024-night&wt=none&l=htmlmixed&width=711&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cp%2520class%253D%2522text-wt-bold%2520text-size-md%2522%253EExample%2520of%2520bold%2520weight%2520text%253C%252Fp%253E%250A%253Cp%2520class%253D%2522text-wt-semibold%2520text-size-md%2522%253EExample%2520of%2520semi-bold%2520weight%2520text%253C%252Fp%253E%250A%253Cp%2520class%253D%2522text-wt-normal%2520text-size-md%2522%253EExample%2520of%2520regular%2520weight%2520text%253C%252Fp%253E%250A%253Cp%2520class%253D%2522text-wt-light%2520text-size-md%2522%253EExample%2520of%2520light%2520weight%2520text%253C%252Fp%253E%250A%253Cp%2520class%253D%2522text-wt-thin%2520text-size-md%2522%253EExample%2520of%2520thin%2520weight%2520text%253C%252Fp%253E"
+          style="
+            width: 1032px;
+            height: 319px;
+            border: 0;
+            transform: scale(1);
+            overflow: hidden;
+          "
+          sandbox="allow-scripts allow-same-origin"
+        >
+        </iframe>
+
+        <h3>Text styles</h3>
+        <p>
+          Use classes <span class="code">text-style-gray</span>,
+          <span class="code">text-style-center</span>,
+          <span class="code">text-style-italic</span>,
+          <span class="code">text-style-underline</span>, or
+          <span class="code">text-style-strike</span> to use text with different
+          styles.
+        </p>
+        <div class="example-container">
+          <p class="text-style-gray text-size-md">Example of gray text</p>
+          <p class="text-style-center text-size-md">Example of centered text</p>
+          <p class="text-style-italic text-size-md">Example of italic text</p>
+          <p class="text-style-underline text-size-md">
+            Example of underlined text
+          </p>
+          <p class="text-style-strike text-size-md">
+            Example of strike-through text
+          </p>
+        </div>
+        <iframe
+          src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=3024-night&wt=none&l=htmlmixed&width=978.25&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cp%2520class%253D%2522text-style-gray%2520text-size-md%2522%253EExample%2520of%2520gray%2520text%253C%252Fp%253E%250A%253Cp%2520class%253D%2522text-style-center%2520text-size-md%2522%253EExample%2520of%2520centered%2520text%253C%252Fp%253E%250A%253Cp%2520class%253D%2522text-style-italic%2520text-size-md%2522%253EExample%2520of%2520italic%2520text%253C%252Fp%253E%250A%253Cp%2520class%253D%2522text-style-underline%2520text-size-md%2522%253EExample%2520of%2520underlined%2520text%253C%252Fp%253E%250A%253Cp%2520class%253D%2522text-style-strike%2520text-size-md%2522%253EExample%2520of%2520strike-through%2520text%253C%252Fp%253E%250A%250A%250A%250A"
+          style="
+            width: 1012px;
+            height: 338px;
+            border: 0;
+            transform: scale(1);
+            overflow: hidden;
+          "
+          sandbox="allow-scripts allow-same-origin"
+        >
+        </iframe>
+      </section>
+    </main>
+    <script
+      src="https://kit.fontawesome.com/43943f2889.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

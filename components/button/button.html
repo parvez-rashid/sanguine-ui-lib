@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/main.css" />
+    <title>Buttons | Sanguine</title>
+  </head>
+  <body>
+    <nav class="navigation">
+      <div class="nav-logo">SANGUINE</div>
+      <ul class="list-style-none list-inline">
+        <li>
+          <i class="fa-solid fa-house"></i>
+          <a class="options link" href="/index.html">home</a>
+        </li>
+        <li>
+          <i class="fa-solid fa-layer-group"></i>
+          <a class="options link link-active" href="/documentation.html"
+            >documentation</a
+          >
+        </li>
+        <li>
+          <i class="fa-brands fa-github"></i>
+          <a
+            class="options link"
+            href="https://github.com/parvez-rashid/sanguine-ui-lib/tree/dev"
+            target="_blank"
+            >github</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <main class="documentation">
+      <aside class="sidebar padding-lg">
+        <ul class="list-style-none">
+          <li class="padding-lg">
+            <a
+              class="primary-color cursor-pointer text-dec-none"
+              href="/components/alert/alert.html"
+              >Alert</a
+            >
+          </li>
+          <li class="padding-lg">
+            <a
+              class="primary-color cursor-pointer text-dec-none link-active"
+              href="/components/button/button.html"
+              >Button</a
+            >
+          </li>
+          <li class="padding-lg">
+            <a
+              class="primary-color cursor-pointer text-dec-none"
+              href="/components/avatar/avatar.html"
+              >Avatar</a
+            >
+          </li>
+          <li class="padding-lg">
+            <a
+              class="primary-color cursor-pointer text-dec-none"
+              href="/components/badge/badge.html"
+              >Badge</a
+            >
+          </li>
+          <li class="padding-lg">
+            <a
+              class="primary-color cursor-pointer text-dec-none"
+              href="/components/card/card.html"
+              >Card</a
+            >
+          </li>
+          <li class="padding-lg">
+            <a
+              class="primary-color cursor-pointer text-dec-none"
+              href="/components/image/image.html"
+              >Image</a
+            >
+          </li>
+          <li class="padding-lg">
+            <a
+              class="primary-color cursor-pointer text-dec-none"
+              href="/components/input/input.html"
+              >Input</a
+            >
+          </li>
+          <li class="padding-lg">
+            <a
+              class="primary-color cursor-pointer text-dec-none"
+              href="/components/navigation/navigation.html"
+              >Navigation</a
+            >
+          </li>
+          <li class="padding-lg">
+            <a
+              class="primary-color cursor-pointer text-dec-none"
+              href="/components/list/list.html"
+              >Lists</a
+            >
+          </li>
+          <li class="padding-lg">
+            <a
+              class="primary-color cursor-pointer text-dec-none"
+              href="/components/typography/typography.html"
+              >Typography</a
+            >
+          </li>
+        </ul>
+      </aside>
+      <section class="components">
+        <h1 class="h1 text-wt-bold">Buttons</h1>
+        <p>
+          The Button component is used to trigger an action or event, such as
+          submitting a form, opening a dialog, canceling an action, or
+          performing a delete operation.
+        </p>
+        <hr class="hr" />
+        <h3>Usage of buttons</h3>
+        <p>
+          Buttons can be used in 6 available styles, each representing the
+          essence of the action it performs. Simply include class
+          <span class="code">btn</span> along with the style/type of button you
+          wish to use (e.g., <span class="code">class="btn btn-primary"</span>).
+        </p>
+        <hr class="hr" />
+        <div class="btn-container">
+          <button type="button" class="btn btn-primary">Primary</button>
+          <button type="button" class="btn btn-secondary">Secondary</button>
+          <button type="button" class="btn btn-success">Success</button>
+          <button type="button" class="btn btn-warning">Warning</button>
+          <button type="button" class="btn btn-danger">Danger</button>
+          <button type="button" class="btn btn-link">
+            <a href="">Link</a>
+          </button>
+        </div>
+        <hr class="hr" />
+        <iframe
+          src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=3024-night&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-primary%2522%253EPrimary%253C%252Fbutton%253E%250A%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-secondary%2522%253ESecondary%253C%252Fbutton%253E%250A%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-success%2522%253ESuccess%253C%252Fbutton%253E%250A%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-warning%2522%253EWarning%253C%252Fbutton%253E%250A%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-danger%2522%253EDanger%253C%252Fbutton%253E%250A%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-link%2522%253E%253Ca%2520href%253D%2522%252F%2522%253ELink%253C%252Fa%253E%253C%252Fbutton%253E"
+          style="
+            width: 1024px;
+            height: 473px;
+            border: 0;
+            transform: scale(1);
+            overflow: hidden;
+          "
+          sandbox="allow-scripts allow-same-origin"
+        >
+        </iframe>
+        <hr class="hr" />
+        <h3>Buttons with icons and floating buttons</h3>
+        <p>
+          Buttons can also have icons inside, making it more informational and
+          also giving it a visual appeal. Floating button is a button that
+          appears on top of the view, that can be used to perform any
+          supplementary action.
+        </p>
+        <hr class="hr" />
+        <div class="btn-container">
+          <button type="button" class="btn btn-primary">
+            <i class="fas fa-bookmark"></i>Primary
+          </button>
+          <button type="button" class="btn btn-secondary">
+            <i class="fas fa-file-download"></i>Secondary
+          </button>
+          <button type="button" class="btn btn-success">
+            <i class="fas fa-check-circle"></i>Success
+          </button>
+          <button type="button" class="btn btn-warning">
+            <i class="fas fa-exclamation-triangle"></i>Warning
+          </button>
+          <button type="button" class="btn btn-danger">
+            <i class="fas fa-exclamation-circle"></i>Danger
+          </button>
+          <button type="button" class="btn btn-float btn-float-lg">
+            <i class="fas fa-pen"></i>
+          </button>
+          <button type="button" class="btn btn-float btn-float-md">
+            <i class="fas fa-comment-dots"></i>
+          </button>
+        </div>
+        <hr class="hr" />
+        <iframe
+          src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=3024-night&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-primary%2522%253E%250A%253Ci%2520class%253D%2522fas%2520fa-bookmark%2522%253E%253C%252Fi%253EPrimary%250A%253C%252Fbutton%253E%250A%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-secondary%2522%253E%250A%253Ci%2520class%253D%2522fas%2520fa-file-download%2522%253E%253C%252Fi%253ESecondary%250A%253C%252Fbutton%253E%250A%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-success%2522%253E%250A%253Ci%2520class%253D%2522fas%2520fa-check-circle%2520padding-lg%2522%253E%253C%252Fi%253ESuccess%250A%253C%252Fbutton%253E%250A%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-warning%2522%253E%250A%253Ci%2520class%253D%2522fas%2520fa-exclamation-triangle%2520padding-lg%2522%253E%253C%252Fi%253EWarning%250A%253C%252Fbutton%253E%250A%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-danger%2522%253E%250A%253Ci%2520class%253D%2522fas%2520fa-exclamation-circle%2520padding-lg%2522%253E%253C%252Fi%253EDanger%250A%253C%252Fbutton%253E%250A%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-float%2520btn-float-lg%2522%253E%250A%253Ci%2520class%253D%2522fas%2520fa-pen%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E%250A%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-float%2520btn-float-md%2522%253E%250A%253Ci%2520class%253D%2522fas%2520fa-comment-dots%2522%253E%253C%252Fi%253E"
+          style="
+            width: 649px;
+            height: 542px;
+            border: 0;
+            transform: scale(1);
+            overflow: hidden;
+          "
+          sandbox="allow-scripts allow-same-origin"
+        >
+        </iframe>
+      </section>
+    </main>
+    <script
+      src="https://kit.fontawesome.com/43943f2889.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
