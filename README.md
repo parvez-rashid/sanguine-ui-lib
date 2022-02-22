@@ -6,6 +6,8 @@ Samguine is a component library which you can use to build your sites faster and
 
 > _Think less, work more!_
 
+![image](https://user-images.githubusercontent.com/84724590/155180487-88a3a4bc-9761-42dc-8977-4f748cddcd13.png)
+
 Checkout Sanguine [here][sanguine].
 
 To use Sanguine, simply paste the below code in your `<head>` tag:
