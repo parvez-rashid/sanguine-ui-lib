@@ -6,7 +6,7 @@ Samguine is a component library which you can use to build your sites faster and
 
 Checkout Sanguine [here][sanguine].
 
-I also built a whole e-commerce app using this library, check it out [here][sanguine-store].
+I also built a whole e-commerce site using this library, check it out [here][sanguine-store].
 
 > _Think less, work more!_
 
