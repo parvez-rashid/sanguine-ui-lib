@@ -85,5 +85,5 @@ Sanguine is a feature-rich component library, it includes various components, wh
 
 - Navigation
 
-[sanguine]: https://deploy-preview-7--sad-haibt-42112c.netlify.app/styles/main.css
+[sanguine]: https://deploy-preview-7--sad-haibt-42112c.netlify.app
 [sanguine-store]: https://inspiring-shockley-7171f7.netlify.app
