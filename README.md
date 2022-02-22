@@ -4,11 +4,26 @@
 
 Samguine is a component library which you can use to build your sites faster and in a more convenient way. Simply include the library in your project, and copy and paste the components as you wish. Yes, it's that simple!
 
+> _Think less, work more!_
+
 Checkout Sanguine [here][sanguine].
 
-I also built a whole e-commerce site using this library, check it out [here][sanguine-store].
+To use Sanguine, simply paste the below code in your `<head>` tag:
 
-> _Think less, work more!_
+```
+<link
+  rel="stylesheet"
+  href="https://deploy-preview-7--sad-haibt-42112c.netlify.app/styles/main.css"
+/>
+```
+
+Or you can import it in your stylesheet if you prefer:
+
+```
+@import url("https://deploy-preview-7--sad-haibt-42112c.netlify.app/styles/main.css");
+```
+
+I also built a whole e-commerce site using this library, check it out [here][sanguine-store].
 
 ## Features
 
