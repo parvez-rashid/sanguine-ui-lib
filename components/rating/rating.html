@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/main.css" />
+    <title>Rating (eCom) | Sanguine</title>
+  </head>
+  <body>
+    <nav class="navigation">
+      <div class="nav-logo">SANGUINE</div>
+      <ul class="list-style-none list-inline">
+        <li>
+          <i class="fa-solid fa-house"></i>
+          <a class="options link" href="/index.html">home</a>
+        </li>
+        <li>
+          <i class="fa-solid fa-layer-group"></i>
+          <a class="options link link-active" href="/documentation.html"
+            >documentation</a
+          >
+        </li>
+        <li>
+          <i class="fa-brands fa-github"></i>
+          <a
+            class="options link"
+            href="https://github.com/parvez-rashid/sanguine-ui-lib/tree/dev"
+            target="_blank"
+            >github</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <main class="documentation">
+      <aside class="sidebar padding-lg">
+        <ul class="list-style-none">
+          <li class="padding-lg">
+            <a
+              class="primary-color cursor-pointer text-dec-none"
+              href="/components/alert/alert.html"
+              >Alert</a
+            >
+          </li>
+          <li class="padding-lg">
+            <a
+              class="primary-color cursor-pointer text-dec-none"
+              href="/components/button/button.html"
+              >Button</a
+            >
+          </li>
+          <li class="padding-lg">
+            <a
+              class="primary-color cursor-pointer text-dec-none"
+              href="/components/avatar/avatar.html"
+              >Avatar</a
+            >
+          </li>
+          <li class="padding-lg">
+            <a
+              class="primary-color cursor-pointer text-dec-none"
+              href="/components/badge/badge.html"
+              >Badge</a
+            >
+          </li>
+          <li class="padding-lg">
+            <a
+              class="primary-color cursor-pointer text-dec-none"
+              href="/components/card/card.html"
+              >Card</a
+            >
+          </li>
+          <li class="padding-lg">
+            <a
+              class="primary-color cursor-pointer text-dec-none"
+              href="/components/image/image.html"
+              >Image</a
+            >
+          </li>
+          <li class="padding-lg">
+            <a
+              class="primary-color cursor-pointer text-dec-none"
+              href="/components/input/input.html"
+              >Input</a
+            >
+          </li>
+          <li class="padding-lg">
+            <a
+              class="primary-color cursor-pointer text-dec-none"
+              href="/components/navigation/navigation.html"
+              >Navigation</a
+            >
+          </li>
+          <li class="padding-lg">
+            <a
+              class="primary-color cursor-pointer text-dec-none"
+              href="/components/list/list.html"
+              >Lists</a
+            >
+          </li>
+          <li class="padding-lg">
+            <a
+              class="primary-color cursor-pointer text-dec-none"
+              href="/components/typography/typography.html"
+              >Typography</a
+            >
+          </li>
+          <li class="padding-lg">
+            <a
+              class="primary-color cursor-pointer text-dec-none link-active"
+              href="/components/rating/rating.html"
+              >Rating</a
+            >
+          </li>
+        </ul>
+      </aside>
+      <section class="components">
+        <h1 class="h1 text-wt-bold">Rating</h1>
+        <p>
+          A rating system is used to obtain user feedback on products and/or services. Try out a simple star-rating system below. Use class <span class="code">rating</span> to use this component.
+        </p>
+        <div class="rating">
+          <h5 class="h3">Star-rating</h5>
+          <button class="star">&#9734;</button>
+          <button class="star">&#9734;</button>
+          <button class="star">&#9734;</button>
+          <button class="star">&#9734;</button>
+          <button class="star">&#9734;</button>
+          <p class="current-rating">0 of 5</p>
+        </div>
+        <div class="snippet">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=3024-night&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522rating%2522%253E%250A%2520%2520%253Ch5%2520class%253D%2522h3%2522%253EStar-rating%253C%252Fh5%253E%250A%2520%2520%253Cbutton%2520class%253D%2522star%2522%253E%2526%25239734%253B%253C%252Fbutton%253E%250A%2520%2520%253Cbutton%2520class%253D%2522star%2522%253E%2526%25239734%253B%253C%252Fbutton%253E%250A%2520%2520%253Cbutton%2520class%253D%2522star%2522%253E%2526%25239734%253B%253C%252Fbutton%253E%250A%2520%2520%253Cbutton%2520class%253D%2522star%2522%253E%2526%25239734%253B%253C%252Fbutton%253E%250A%2520%2520%253Cbutton%2520class%253D%2522star%2522%253E%2526%25239734%253B%253C%252Fbutton%253E%250A%2520%2520%253Cp%2520class%253D%2522current-rating%2522%253E0%2520of%25205%253C%252Fp%253E%250A%253C%252Fdiv%253E"
+            style="width: 592px; height: 378px; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+          </iframe>
+        </div>
+      </section>
+    <script src="/components/rating/rating.js"></script>
+  </body>
+</html>
