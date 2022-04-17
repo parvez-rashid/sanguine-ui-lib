@@ -1,0 +1,25 @@
+.grid {
+  display: grid;
+  border: 1px solid black;
+  margin: 2rem;
+  padding: 1rem;
+  gap: 1rem;
+  justify-items: center;
+  width: min-content;
+}
+
+.grid-2 {
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid-3 {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.snippet {
+  display: flex;
+  width: 100%;
+  height: max-content;
+  padding: 1rem 1.5rem;
+  justify-content: center;
+}
