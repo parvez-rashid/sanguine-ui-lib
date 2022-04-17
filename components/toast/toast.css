@@ -1,0 +1,43 @@
+.toast {
+  visibility: visible;
+  min-width: 250px;
+  margin-left: -125px;
+  margin-right: 125px;
+  color: var(--white);
+  text-align: center;
+  border-radius: 6px;
+  padding: 16px;
+  position: fixed;
+  z-index: 1;
+  bottom: 3rem;
+}
+
+#toast-centre {
+  background-color: var(--color-dark-green);
+  visibility: hidden;
+  left: 50%;
+}
+
+#toast-left {
+  background-color: var(--color-dark-blue);
+  visibility: hidden;
+  left: 10%;
+}
+
+#toast-right {
+  background-color: var(--color-dark-red);
+  visibility: hidden;
+  left: 90%;
+}
+
+.snippet {
+  display: flex;
+  width: 100%;
+  height: max-content;
+  padding: 1rem 1.5rem;
+  justify-content: center;
+}
+
+.h3 {
+  text-align: center;
+}

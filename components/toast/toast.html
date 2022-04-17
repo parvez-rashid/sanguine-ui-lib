@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/main.css" />
+    <title>Toast | Sanguine</title>
+  </head>
+  <body>
+    <nav class="navigation">
+      <div class="nav-logo">SANGUINE</div>
+      <ul class="list-style-none list-inline">
+        <li>
+          <i class="fa-solid fa-house"></i>
+          <a class="options link" href="/index.html">home</a>
+        </li>
+        <li>
+          <i class="fa-solid fa-layer-group"></i>
+          <a class="options link link-active" href="/documentation.html"
+            >documentation</a
+          >
+        </li>
+        <li>
+          <i class="fa-brands fa-github"></i>
+          <a
+            class="options link"
+            href="https://github.com/parvez-rashid/sanguine-ui-lib/tree/dev"
+            target="_blank"
+            >github</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <main class="documentation">
+      <aside class="sidebar padding-lg">
+        <ul class="list-style-none">
+          <li class="padding-lg">
+            <a
+              class="primary-color cursor-pointer text-dec-none"
+              href="/components/alert/alert.html"
+              >Alert</a
+            >
+          </li>
+          <li class="padding-lg">
+            <a
+              class="primary-color cursor-pointer text-dec-none"
+              href="/components/button/button.html"
+              >Button</a
+            >
+          </li>
+          <li class="padding-lg">
+            <a
+              class="primary-color cursor-pointer text-dec-none"
+              href="/components/avatar/avatar.html"
+              >Avatar</a
+            >
+          </li>
+          <li class="padding-lg">
+            <a
+              class="primary-color cursor-pointer text-dec-none"
+              href="/components/badge/badge.html"
+              >Badge</a
+            >
+          </li>
+          <li class="padding-lg">
+            <a
+              class="primary-color cursor-pointer text-dec-none"
+              href="/components/card/card.html"
+              >Card</a
+            >
+          </li>
+          <li class="padding-lg">
+            <a
+              class="primary-color cursor-pointer text-dec-none"
+              href="/components/image/image.html"
+              >Image</a
+            >
+          </li>
+          <li class="padding-lg">
+            <a
+              class="primary-color cursor-pointer text-dec-none"
+              href="/components/input/input.html"
+              >Input</a
+            >
+          </li>
+          <li class="padding-lg">
+            <a
+              class="primary-color cursor-pointer text-dec-none"
+              href="/components/navigation/navigation.html"
+              >Navigation</a
+            >
+          </li>
+          <li class="padding-lg">
+            <a
+              class="primary-color cursor-pointer text-dec-none"
+              href="/components/list/list.html"
+              >Lists</a
+            >
+          </li>
+          <li class="padding-lg">
+            <a
+              class="primary-color cursor-pointer text-dec-none"
+              href="/components/typography/typography.html"
+              >Typography</a
+            >
+          </li>
+          <li class="padding-lg">
+            <a
+              class="primary-color cursor-pointer text-dec-none link-active"
+              href="/components/toast/toast.html"
+              >Toast</a
+            >
+          </li>
+        </ul>
+      </aside>
+      <section class="components">
+        <h1 class="h1 text-wt-bold">Toast</h1>
+        <p>
+          A toast provides simple feedback about an operation in a small popup.
+          It only fills the amount of space required for the message and the
+          current activity remains visible and interactive. Toasts automatically
+          disappear after a timeout. Use class
+          <span class="code">toast</span> to use this component.
+        </p>
+        <h3 class="h3">Open toast</h3>
+        <div class="btn-container">
+          <button class="btn btn-primary toast-open" id="btn-toast-left">
+            from left
+          </button>
+          <button class="btn btn-primary toast-open" id="btn-toast-centre">
+            from centre
+          </button>
+          <button class="btn btn-primary toast-open" id="btn-toast-right">
+            from right
+          </button>
+        </div>
+
+        <div class="toast" id="toast-centre">
+          <div class="toast-content">
+            <span>This is a toast</span>
+          </div>
+        </div>
+
+        <div class="toast" id="toast-left">
+          <div class="toast-content">
+            <span>This is a toast</span>
+          </div>
+        </div>
+
+        <div class="toast" id="toast-right">
+          <div class="toast-content">
+            <span>This is a toast</span>
+          </div>
+        </div>
+        <div class="snippet">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=3024-night&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522toast%2522%2520id%253D%2522toast-centre%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522toast-content%2522%253E%250A%2520%2520%2520%2520%253Cspan%253EThis%2520is%2520a%2520toast%253C%252Fspan%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+            style="
+              width: 486px;
+              height: 293px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </div>
+      </section>
+    </main>
+    <script src="/components/toast/toast.js"></script>
+  </body>
+</html>
