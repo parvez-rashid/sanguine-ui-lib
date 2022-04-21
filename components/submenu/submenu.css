@@ -1,0 +1,36 @@
+.subnav {
+  float: left;
+  overflow: hidden;
+}
+
+.subnav-content {
+  display: none;
+  position: absolute;
+  background-color: var(--primary-color);
+  z-index: 1;
+  width: max-content;
+  padding: 1rem 2rem;
+}
+
+.subnav-content li,
+a {
+  padding: 1rem;
+  text-decoration: none;
+  color: white;
+}
+
+.subnav-content a:hover {
+  color: black;
+}
+
+.subnav:hover .subnav-content {
+  display: block;
+}
+
+.snippet {
+  display: flex;
+  width: 100%;
+  height: max-content;
+  padding: 1rem 1.5rem;
+  justify-content: center;
+}
