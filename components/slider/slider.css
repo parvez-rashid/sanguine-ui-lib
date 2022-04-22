@@ -1,0 +1,25 @@
+.slider-container {
+  display: flex;
+  padding: 2rem;
+  margin: 2rem;
+  gap: 1.25rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider {
+  appearance: none;
+  cursor: pointer;
+  width: 100%;
+  height: 15px;
+  border-radius: 5px;
+  background: var(--grey);
+}
+
+.snippet {
+  display: flex;
+  width: 100%;
+  height: max-content;
+  padding: 1rem 1.5rem;
+  justify-content: center;
+}

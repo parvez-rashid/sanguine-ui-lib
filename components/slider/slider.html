@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/main.css" />
+    <title>Slider | Sanguine</title>
+  </head>
+  <body>
+    <nav class="navigation">
+      <div class="nav-logo">SANGUINE</div>
+      <ul class="list-style-none list-inline">
+        <li>
+          <i class="fa-solid fa-house"></i>
+          <a class="options link" href="/index.html">home</a>
+        </li>
+        <li>
+          <i class="fa-solid fa-layer-group"></i>
+          <a class="options link link-active" href="/documentation.html"
+            >documentation</a
+          >
+        </li>
+        <li>
+          <i class="fa-brands fa-github"></i>
+          <a
+            class="options link"
+            href="https://github.com/parvez-rashid/sanguine-ui-lib/tree/dev"
+            target="_blank"
+            >github</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <main class="documentation">
+      <aside class="sidebar padding-lg">
+        <ul class="list-style-none">
+          <li class="padding-lg">
+            <a
+              class="primary-color cursor-pointer text-dec-none"
+              href="/components/alert/alert.html"
+              >Alert</a
+            >
+          </li>
+          <li class="padding-lg">
+            <a
+              class="primary-color cursor-pointer text-dec-none"
+              href="/components/button/button.html"
+              >Button</a
+            >
+          </li>
+          <li class="padding-lg">
+            <a
+              class="primary-color cursor-pointer text-dec-none"
+              href="/components/avatar/avatar.html"
+              >Avatar</a
+            >
+          </li>
+          <li class="padding-lg">
+            <a
+              class="primary-color cursor-pointer text-dec-none"
+              href="/components/badge/badge.html"
+              >Badge</a
+            >
+          </li>
+          <li class="padding-lg">
+            <a
+              class="primary-color cursor-pointer text-dec-none"
+              href="/components/card/card.html"
+              >Card</a
+            >
+          </li>
+          <li class="padding-lg">
+            <a
+              class="primary-color cursor-pointer text-dec-none"
+              href="/components/image/image.html"
+              >Image</a
+            >
+          </li>
+          <li class="padding-lg">
+            <a
+              class="primary-color cursor-pointer text-dec-none"
+              href="/components/input/input.html"
+              >Input</a
+            >
+          </li>
+          <li class="padding-lg">
+            <a
+              class="primary-color cursor-pointer text-dec-none link-active"
+              href="/components/navigation/navigation.html"
+              >Navigation</a
+            >
+          </li>
+          <li class="padding-lg">
+            <a
+              class="primary-color cursor-pointer text-dec-none"
+              href="/components/list/list.html"
+              >Lists</a
+            >
+          </li>
+          <li class="padding-lg">
+            <a
+              class="primary-color cursor-pointer text-dec-none"
+              href="/components/typography/typography.html"
+              >Typography</a
+            >
+          </li>
+          <li class="padding-lg">
+            <a
+              class="primary-color cursor-pointer text-dec-none link-active"
+              href="/components/slider/slider.html"
+              >Slider</a
+            >
+          </li>
+        </ul>
+      </aside>
+      <section class="components">
+        <h1 class="h1 text-wt-bold">Slider</h1>
+        <p>
+          A range slider is typically used to adjust a quantity such as volume
+          on media applications or price range on e-commerce applications. Use
+          class <span class="code">slider</span> to use this component. Check
+          out the demos and the code snippet below.
+        </p>
+
+        <div class="slider-container">
+          <i class="fa-solid fa-volume-high"></i>
+          <label>
+            <input
+              type="range"
+              name="volume"
+              min="0"
+              max="100"
+              class="slider"
+            />
+          </label>
+        </div>
+        <div class="slider-container">
+          Price range
+          <label>
+            <input
+              type="range"
+              name="price"
+              value="0"
+              min="0"
+              max="5000"
+              step="500"
+              class="slider"
+            />
+          </label>
+        </div>
+        <div class="snippet">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=3024-night&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522slider-container%2522%253E%250A%2520%2520Price%2520range%250A%2520%2520%253Clabel%253E%250A%2520%2520%2520%2520%253Cinput%250A%2520%2520%2520%2520%2520%2520type%253D%2522range%2522%250A%2520%2520%2520%2520%2520%2520name%253D%2522price%2522%250A%2520%2520%2520%2520%2520%2520value%253D%25220%2522%250A%2520%2520%2520%2520%2520%2520min%253D%25220%2522%250A%2520%2520%2520%2520%2520%2520max%253D%25225000%2522%250A%2520%2520%2520%2520%2520%2520step%253D%2522500%2522%250A%2520%2520%2520%2520%2520%2520class%253D%2522slider%2522%250A%2520%2520%2520%2520%252F%253E%250A%2520%2520%253C%252Flabel%253E%250A%253C%252Fdiv%253E%250A"
+            style="
+              width: 456px;
+              height: 479px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </div>
+      </section>
+    </main>
+    <script
+      src="https://kit.fontawesome.com/43943f2889.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
