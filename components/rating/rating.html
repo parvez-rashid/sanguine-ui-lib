@@ -117,7 +117,9 @@
       <section class="components">
         <h1 class="h1 text-wt-bold">Rating</h1>
         <p>
-          A rating system is used to obtain user feedback on products and/or services. Try out a simple star-rating system below. Use class <span class="code">rating</span> to use this component.
+          A rating system is used to obtain user feedback on products and/or
+          services. Try out a simple star-rating system below. Use class
+          <span class="code">rating</span> to use this component.
         </p>
         <div class="rating">
           <h5 class="h3">Star-rating</h5>
@@ -130,12 +132,38 @@
         </div>
         <div class="snippet">
           <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=3024-night&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522rating%2522%253E%250A%2520%2520%253Ch5%2520class%253D%2522h3%2522%253EStar-rating%253C%252Fh5%253E%250A%2520%2520%253Cbutton%2520class%253D%2522star%2522%253E%2526%25239734%253B%253C%252Fbutton%253E%250A%2520%2520%253Cbutton%2520class%253D%2522star%2522%253E%2526%25239734%253B%253C%252Fbutton%253E%250A%2520%2520%253Cbutton%2520class%253D%2522star%2522%253E%2526%25239734%253B%253C%252Fbutton%253E%250A%2520%2520%253Cbutton%2520class%253D%2522star%2522%253E%2526%25239734%253B%253C%252Fbutton%253E%250A%2520%2520%253Cbutton%2520class%253D%2522star%2522%253E%2526%25239734%253B%253C%252Fbutton%253E%250A%2520%2520%253Cp%2520class%253D%2522current-rating%2522%253E0%2520of%25205%253C%252Fp%253E%250A%253C%252Fdiv%253E"
-            style="width: 592px; height: 378px; border:0; transform: scale(1); overflow:hidden;"
-            sandbox="allow-scripts allow-same-origin">
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=3024-night&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253C%21--%2520HTML%2520--%253E%250A%250A%253Cdiv%2520class%253D%2522rating%2522%253E%250A%2520%2520%253Ch5%2520class%253D%2522h3%2522%253EStar-rating%253C%252Fh5%253E%250A%2520%2520%253Cbutton%2520class%253D%2522star%2522%253E%2526%25239734%253B%253C%252Fbutton%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%253Cbutton%2520class%253D%2522star%2522%253E%2526%25239734%253B%253C%252Fbutton%253E%250A%2520%2520%253Cbutton%2520class%253D%2522star%2522%253E%2526%25239734%253B%253C%252Fbutton%253E%250A%2520%2520%253Cbutton%2520class%253D%2522star%2522%253E%2526%25239734%253B%253C%252Fbutton%253E%250A%2520%2520%253Cbutton%2520class%253D%2522star%2522%253E%2526%25239734%253B%253C%252Fbutton%253E%250A%2520%2520%253Cp%2520class%253D%2522current-rating%2522%253E0%2520of%25205%253C%252Fp%253E%250A%253C%252Fdiv%253E"
+            style="
+              width: 673px;
+              height: 424px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </div>
+        <div class="snippet">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=3024-night&wt=none&l=javascript&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%252F%252FJavascript%250A%250Aconst%2520allStars%2520%253D%2520document.querySelectorAll%28%2522.star%2522%29%253B%250Aconst%2520currentRating%2520%253D%2520document.querySelector%28%2522.current-rating%2522%29%253B%250A%250AallStars.forEach%28%28star%252C%2520i%29%2520%253D%253E%2520%257B%250A%2520%2520star.addEventListener%28%2522click%2522%252C%2520%28%29%2520%253D%253E%2520%257B%250A%2520%2520%2520%2520let%2520current_star%2520%253D%2520i%2520%252B%25201%253B%250A%2520%2520%2520%2520currentRating.innerText%2520%253D%2520%2560%2524%257Bcurrent_star%257D%2520of%25205%2560%253B%250A%250A%2520%2520%2520%2520allStars.forEach%28%28star%252C%2520j%29%2520%253D%253E%2520%257B%250A%2520%2520%2520%2520%2520%2520current_star%2520%253E%253D%2520j%2520%252B%25201%250A%2520%2520%2520%2520%2520%2520%2520%2520%253F%2520%28star.innerHTML%2520%253D%2520%2522%2526%25239733%2522%29%250A%2520%2520%2520%2520%2520%2520%2520%2520%253A%2520%28star.innerHTML%2520%253D%2520%2522%2526%25239734%2522%29%253B%250A%2520%2520%2520%2520%257D%29%253B%250A%2520%2520%257D%29%253B%250A%257D%29%253B%250A"
+            style="
+              width: 673px;
+              height: 544px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
           </iframe>
         </div>
       </section>
+    </main>
     <script src="/components/rating/rating.js"></script>
+    <script
+      src="https://kit.fontawesome.com/43943f2889.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
