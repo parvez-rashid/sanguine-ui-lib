@@ -146,10 +146,24 @@
         </div>
         <div class="snippet">
           <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=3024-night&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520id%253D%2522modal%2522%253E%250A%2520%2520%253Cdiv%2520id%253D%2522modal-content%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520id%253D%2522modal-close%2522%253E%253Cbutton%253E%255BX%255D%253C%252Fbutton%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520...%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-dismiss%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-primary%2522%2520id%253D%2522modal-approve%2522%253EOK%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=3024-night&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253C%21--%2520HTML%2520--%253E%250A%250A%253Cdiv%2520class%253D%2522modal%2522%253E%250A%2520%2520%2520%253Cdiv%2520id%253D%2522modal-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520id%253D%2522modal-close%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253E%253Cbutton%2520class%253D%2522btn%2520btn-secondary%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa-solid%2520fa-xmark%2522%253E%253C%252Fi%253E%253C%252Fbutton%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253Ch1%253EThis%2520is%2520a%2520modal%21%253C%252Fh1%253E%250A%2520%2520%2520%2520%2520%2520%253Chr%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%253E...%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-dismiss%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%2520id%253D%2522modal-approve%2522%253EOK%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
             style="
-              width: 911px;
-              height: 372px;
+              width: 605px;
+              height: 497px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </div>
+        <div class="snippet">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=3024-night&wt=none&l=javascript&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%252F%252F%2520Javascript%250A%250Aconst%2520modal%2520%253D%2520document.querySelector%28%27.modal%27%29%250Aconst%2520btn%2520%253D%2520document.querySelector%28%27%2523modal-open%27%29%250Aconst%2520approve%2520%253D%2520document.querySelector%28%27%2523modal-approve%27%29%250Aconst%2520span%2520%253D%2520document.querySelector%28%27%2523modal-close%27%29%250A%250Abtn.addEventListener%28%27click%27%252C%2520%28%29%2520%253D%253E%2520%257B%250A%2520%2520console.log%28%27clicked%27%29%250A%2520%2520modal.style.display%2520%253D%2520%27block%27%250A%257D%29%250A%250Aspan.addEventListener%28%27click%27%252C%2520%28%29%2520%253D%253E%2520%257B%250A%2520%2520console.log%28%27clicked%27%29%250A%2520%2520modal.style.display%2520%253D%2520%27none%27%250A%257D%29%250A%250Aapprove.addEventListener%28%27click%27%252C%2520%28%29%2520%253D%253E%2520%257B%250A%2520%2520console.log%28%27clicked%27%29%250A%2520%2520modal.style.display%2520%253D%2520%27none%27%250A%257D%29%250A%250Awindow.addEventListener%28%27click%27%252C%2520%28event%29%2520%253D%253E%2520%257B%250A%2520%2520if%2520%28event.target%2520%253D%253D%2520modal%29%2520%257B%250A%2520%2520%2520%2520modal.style.display%2520%253D%2520%27none%27%250A%2520%2520%257D%250A%257D%29%250A"
+            style="
+              width: 605px;
+              height: 720px;
               border: 0;
               transform: scale(1);
               overflow: hidden;
